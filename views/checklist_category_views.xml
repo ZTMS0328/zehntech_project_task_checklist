@@ -1,0 +1,58 @@
+<odoo>
+
+    <!--Tree view for the checklist.category Model-->
+    <record id="checklist_category_action_tree" model="ir.ui.view">
+        <field name="name">checklist.category.action.tree</field>
+        <field name="model">checklist.category</field>
+        <field name="arch" type="xml">
+            <list string="Checklist Category">
+                <field name="name"/>
+                <field name="description"/>
+                <field name="group_permission"/>
+            </list>
+        </field>
+    </record>
+
+    <!--Form view for the checklist.category Model-->
+    <record id="checklist_category_action_form" model="ir.ui.view">
+        <field name="name">checklist.category.action.form</field>
+        <field name="model">checklist.category</field>
+        <field name="arch" type="xml">
+            <form string="Checklist Category">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                        </group>
+                        <group>
+                            <field name="group_permission"/>                          
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!--Action for the checklist.category Model-->
+    <record id="checklist_category_action" model="ir.actions.act_window">
+        <field name="name">Checklist Category</field>
+        <field name="res_model">checklist.category</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a checklist Category
+            </p>
+        </field>
+    </record>
+
+
+    <!--Menu for the Project Checklist-->
+    <menuitem id="checklist_category_menu" 
+        name="Checklist Category" 
+        action="checklist_category_action" 
+        parent="checklist_menu_root" 
+    />
+
+</odoo>
+

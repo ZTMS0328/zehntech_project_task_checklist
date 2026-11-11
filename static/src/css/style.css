@@ -1,0 +1,29 @@
+.cancel-btn{
+    color:red;
+}
+
+.success-btn{
+    color:#5cb85c;
+}
+
+.inprogress-btn{
+    color:#5bc0de;
+}
+
+.reset-btn{
+    color:#495057C2;
+}
+
+.o_progressbar  {
+    display: flex !important; /* Switch to Flexbox */
+    justify-content: flex-start !important; /* Align to start */
+}
+
+.o_list_number_th {
+    text-align: left !important; /* Left align text */
+}
+
+.checklist_label {
+    color: #212529 !important;
+    margin-bottom: 10px;
+}

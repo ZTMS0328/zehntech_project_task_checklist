@@ -1,0 +1,114 @@
+<odoo>
+
+    <!--Tree view for the task.checklist Model-->
+    <record id="task_checklist_action_tree" model="ir.ui.view">
+        <field name="name">task.checklist.action.tree</field>
+        <field name="model">task.checklist</field>
+        <field name="arch" type="xml">
+            <list string="Task Checklist">
+                <field name="name"/>
+                <field name="description"/>
+                <field name="checklist_category"/>
+            </list>
+        </field>
+    </record>
+
+    <!--Form view for the task.checklist Model-->
+    <record id="task_checklist_action_form" model="ir.ui.view">
+        <field name="name">task.checklist.action.form</field>
+        <field name="model">task.checklist</field>
+        <field name="arch" type="xml">
+            <form string="Task Checklist">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                        </group>
+                        <group>
+                            <field name="checklist_category"/>
+                            <field name="task_ids" invisible="1"/>
+                        </group>
+                    </group>
+
+                    <!--For the one2many field of checklist item-->
+                    <label for="checklist_ids" string="CheckList Items" context="{'form_view_ref': 'zehntech_project_task_checklist.checklist_item_action_form'}"/>
+                    <field name="checklist_ids" string="CheckList Items">
+                        <list create="1">
+                            <field name="sequence" widget="handle"/>
+                            <field name="name" required="1"/>
+                            <field name="description"/>
+                        </list>
+                    </field>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!--Search view for the task.checklist Model-->
+    <record id="task_checklist_action_search" model="ir.ui.view">
+        <field name="name">task.checklist.action.search</field>
+        <field name="model">task.checklist</field>
+        <field name="arch" type="xml">
+            <search string="Task Checklist">
+                <field name="name"/>
+                <field name="description"/>
+                <field name="checklist_category"/>
+                <filter name="groupby_checklist_category" string="Checklist Category" context="{'group_by': 'checklist_category'}"/>
+            </search>
+        </field>
+    </record>
+
+    <!--Form view for checklist.item Model-->
+    <record id="checklist_item_action_form" model="ir.ui.view">
+        <field name="name">checklist.item.action.form</field>
+        <field name="model">checklist.item</field>
+        <field name="arch" type="xml">
+            <form string="Checklist Item">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="description"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!--Action for the Checklist.item Model-->
+    <record id="checklist_item_action" model="ir.actions.act_window">
+        <field name="name">Checklist Item</field>
+        <field name="res_model">checklist.item</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="task_checklist_action_search"/>
+    </record>
+
+    <!--Action for the task.checklist Model-->
+    <record id="task_checklist_action" model="ir.actions.act_window">
+        <field name="name">Task Checklist</field>
+        <field name="res_model">task.checklist</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a checklist
+            </p>
+        </field>
+    </record>
+
+    <!--Root menu for checklist-->
+    <menuitem id="checklist_menu_root" 
+        name="Checklist"  
+        parent="project.menu_project_config" 
+        sequence="1"
+        />
+
+    <!--Menu for the Task Checklist-->
+    <menuitem id="task_checklist_menu" 
+        name="Task Checklist" 
+        action="task_checklist_action" 
+        parent="checklist_menu_root" 
+        />
+
+</odoo>

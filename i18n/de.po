@@ -1,0 +1,1397 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* zehntech_project_task_checklist
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-13 11:38+0000\n"
+"PO-Revision-Date: 2025-11-13 17:15+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.7\n"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "<span style=\"font-weight: bold; color: #4A4A4A; margin-right: 10px;\">Checklist Progress:</span>"
+msgstr "<span style=\"font-weight: bold; color: #4A4A4A; margin-right: 10px;\">Checklistenfortschritt:</span>"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_progress_inherited_kanban
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_inherited_kanban
+msgid "<span style=\"font-weight: bold; color: #4A4A4A; margin-right: 6px;\" class=\"o_kanban_label\">Checklist:</span>"
+msgstr ""
+"<span style=\"font-weight: bold; color: #4A4A4A; margin-right: 6px;\" class=\"o_kanban_label\">Checkliste:</span>"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,description:zehntech_project_task_checklist.task_checklist_sample_3
+msgid "A checklist for addressing improvements in existing features or functionality."
+msgstr "Eine Checkliste zur Verbesserung bestehender Features oder Funktionen."
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,description:zehntech_project_task_checklist.task_checklist_sample_2
+msgid "A checklist for managing the development of a new feature."
+msgstr "Eine Checkliste zur Verwaltung der Entwicklung eines neuen Features."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "A checklist with the same name already exists in this category."
+msgstr "In dieser Kategorie existiert bereits eine Checkliste mit demselben Namen."
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,description:zehntech_project_task_checklist.task_checklist_sample_4
+msgid "A generic checklist for managing general tasks in a project."
+msgstr "Eine allgemeine Checkliste zur Verwaltung allgemeiner Aufgaben in einem Projekt."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_resource_management
+msgid "Allocate Team Members to Tasks"
+msgstr "Teammitglieder Aufgaben zuordnen"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__category_domain
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__category_domain
+msgid "Allowed Categories"
+msgstr "Erlaubte Kategorien"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.checklist_item_2
+msgid "Apply the fix"
+msgstr "Fix anwenden"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_2
+msgid "Assemble project team"
+msgstr "Projektteam zusammenstellen"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__checklist_category
+msgid ""
+"Assign a category to the checklist. This helps to organize the checklists into relevant categories (e.g., 'Bug Fixes', "
+"'Feature Requests')."
+msgstr ""
+"Weisen Sie der Checkliste eine Kategorie zu. Dies hilft dabei, die Checklisten in relevante Kategorien zu organisieren "
+"(z. B. „Fehlerbehebungen“, „Funktionsanfragen“)."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_resource_management
+msgid "Assign team members to tasks based on skill sets."
+msgstr "Teammitgliedern Aufgaben basierend auf ihren Fähigkeiten zuweisen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_sample_1
+msgid "Bug Fix"
+msgstr "Fehlerbehebung"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__checklist_item_line__state__cancel
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__project_checklist_item_line__state__cancel
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__checklist_category
+msgid ""
+"Categorize this checklist. The checklist category groups tasks by similar types or classifications, providing better "
+"organization and filtering."
+msgstr ""
+"Kategorisieren Sie diese Checkliste. Die Checklistenkategorie gruppiert Aufgaben nach ähnlichen Typen oder "
+"Klassifizierungen und ermöglicht so eine bessere Organisation und Filterung."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__check_list_item_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__check_list_item_id
+msgid "Check List Item"
+msgstr "Checklistenelement"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_form
+msgid "CheckList Items"
+msgstr "Checklistenelemente"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklist_id
+#: model:ir.ui.menu,name:zehntech_project_task_checklist.checklist_menu_root
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "Checklist"
+msgstr "Checkliste"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.checklist_category_action
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__checklist_category
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklist_category
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklist_category
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__checklist_category
+#: model:ir.ui.menu,name:zehntech_project_task_checklist.checklist_category_menu
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.checklist_category_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.checklist_category_action_tree
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_search
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_search
+#: model:ir.model,name:zehntech_project_task_checklist.model_checklist_category
+msgid "Checklist Category"
+msgstr "Checklistenkategorie"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklist_domain
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklist_domain
+msgid "Checklist Domain"
+msgstr "Checklisten-Domäne"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.checklist_item_action
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.project_checklist_item_action
+#: model:ir.model,name:zehntech_project_task_checklist.model_checklist_item
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.checklist_item_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_item_action_form
+msgid "Checklist Item"
+msgstr "Checklistenelement"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_checklist_item_line
+msgid "Checklist Item Line"
+msgstr "Checklistenelementzeile"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__checklist_ids
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklists
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklists
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__checklist_ids
+msgid "Checklist Items"
+msgstr "Checklistenelemente"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklist_progress
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklist_progress
+msgid "Checklist Progress in %"
+msgstr "Checklistenfortschritt in %"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task_type__restrict_task_completion
+msgid "Checklist Task Progress Restriction"
+msgstr "Checklistenaufgabenfortschrittsbeschränkung"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_quality_assurance
+msgid "Checklist for ensuring that quality assurance measures are met throughout the project."
+msgstr ""
+"Checkliste zur Sicherstellung, dass während des gesamten Projekts Qualitätssicherungsmaßnahmen eingehalten werden."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_post_review
+msgid "Checklist for evaluating project success and gathering insights post-completion."
+msgstr "Checkliste zur Bewertung des Projekterfolgs und zum Sammeln von Erkenntnissen nach Abschluss."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_extended_client_onboarding
+msgid "Checklist for onboarding clients and setting clear expectations."
+msgstr "Checkliste zur Einarbeitung von Kunden und zum Festlegen klarer Erwartungen."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_compliance
+msgid "Checklist to ensure compliance with legal and regulatory standards."
+msgstr "Checkliste zur Sicherstellung der Einhaltung gesetzlicher und behördlicher Standards."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_resource_management
+msgid "Checklist to manage resources effectively throughout the project."
+msgstr "Checkliste zur effektiven Verwaltung von Ressourcen während des gesamten Projekts."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__checklist_category
+msgid "Choose a category for the checklist. This will help to organize checklists and differentiate them."
+msgstr ""
+"Wählen Sie eine Kategorie für die Checkliste. Dies hilft dabei, Checklisten zu organisieren und zu unterscheiden."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_9
+msgid "Clearly outline the objectives and goals of the task."
+msgstr "Stellen Sie die Ziele und Zwecke der Aufgabe klar dar."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_client_onboarding
+msgid "Client Onboarding"
+msgstr "Einarbeitung von Kunden"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_extended_client_onboarding
+msgid "Client Onboarding Checklist"
+msgstr "Client Onboarding -Checkliste"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_post_review
+msgid "Collect Client Feedback"
+msgstr "Sammeln Sie Client -Feedback"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_2_client_onboarding
+msgid "Collect detailed requirements to understand the client’s needs and goals."
+msgstr "Sammeln Sie detaillierte Anforderungen, um die Bedürfnisse und Ziele des Kunden zu verstehen."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_9
+msgid "Compile all necessary documentation, including project reports and user guides."
+msgstr "Kompilieren Sie alle erforderlichen Dokumentationen, einschließlich Projektberichte und Benutzerführer."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_13
+msgid "Complete the task"
+msgstr "Schließen Sie die Aufgabe ab"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_compliance
+msgid "Compliance"
+msgstr "Konformität"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_compliance
+msgid "Compliance Checklist"
+msgstr "Compliance -Checkliste"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_2_quality_assurance
+msgid "Conduct Final QA Testing"
+msgstr "Führen Sie abschließende Qualitätssicherungstests durch"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_2_post_review
+msgid "Conduct Internal Project Review"
+msgstr "Führen Sie eine interne Projektüberprüfung durch"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_compliance
+msgid "Conduct Security and Privacy Checks"
+msgstr "Führen Sie Sicherheits- und Datenschutzprüfungen durch"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_8
+msgid "Conduct testing and QA"
+msgstr "Führen Sie Tests und Qualitätssicherung durch"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.actions.act_window,help:zehntech_project_task_checklist.project_checklist_action
+#: model_terms:ir.actions.act_window,help:zehntech_project_task_checklist.task_checklist_action
+msgid "Create a checklist"
+msgstr "Checkliste erstellen"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.actions.act_window,help:zehntech_project_task_checklist.checklist_category_action
+msgid "Create a checklist Category"
+msgstr "Checklistenkategorie erstellen"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_3
+msgid "Create a detailed plan including milestones, deadlines, and resource allocation."
+msgstr "Erstellen Sie einen detaillierten Plan mit Meilensteinen, Fristen und Ressourcenzuweisung."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_2
+msgid "Create design mockups"
+msgstr "Erstellen Sie Design -Modelle"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_1
+msgid "Define feature scope"
+msgstr "Definieren Sie den Funktionsumfang"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1
+msgid "Define project scope"
+msgstr "Definieren Sie den Projektumfang"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_9
+msgid "Define task objectives"
+msgstr "Definieren Sie die Aufgabenziele"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_1
+msgid "Define the purpose, goals, and user requirements for the new feature."
+msgstr "Definieren Sie die Zwecke, Ziele und Benutzeranforderungen für die neue Funktion."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_11
+msgid "Delegate responsibilities"
+msgstr "Delegieren Sie Verantwortlichkeiten"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_11
+msgid "Delegate tasks to the appropriate team members based on their expertise and availability."
+msgstr "Delegieren Sie Aufgaben je nach Fachwissen und Verfügbarkeit an die entsprechenden Teammitglieder."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_10
+msgid "Deliver project and gather feedback"
+msgstr "Liefern Sie das Projekt ab und sammeln Sie Feedback"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__description
+msgid "Description"
+msgstr "Beschreibung"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_2
+msgid "Design the feature's user interface (UI) and create wireframes/mockups."
+msgstr "Entwerfen Sie die Benutzeroberfläche der Funktion (UI) und erstellen Sie Wireframes/Mockups."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_3
+msgid "Develop project plan"
+msgstr "Projektplan entwickeln"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_3
+msgid "Develop the feature"
+msgstr "Entwickeln Sie die Funktion"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task_type__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__checklist_progress
+msgid "Displays the percentage of checklist items completed for this task, providing a quick overview of progress."
+msgstr ""
+"Zeigt den Prozentsatz der für diese Aufgabe ausgefüllten Checklistenelemente an und bietet einen kurzen Überblick über "
+"den Fortschritt.Zeigt den Prozentsatz der für diese Aufgabe abgeschlossenen Checklistenelemente an und bietet so einen "
+"schnellen Überblick über den Fortschritt."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.checklist_item_1
+msgid "Document steps"
+msgstr "Dokumentschritte"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__checklist_item_line__state__done
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__project_checklist_item_line__state__done
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "Done"
+msgstr "Erledigt"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_8
+msgid "Ensure all project outputs meet quality standards and pass required tests."
+msgstr ""
+"Stellen Sie sicher, dass alle Projektausgaben die Qualitätsstandards und bestehende erforderliche Tests erfüllen."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_quality_assurance
+msgid "Ensure that deliverables meet the established quality standards."
+msgstr "Stellen Sie sicher, dass die Ergebnisse den festgelegten Qualitätsstandards entsprechen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.checklist_item_3
+msgid "Ensure the bug is fixed and no new issues are introduced."
+msgstr "Stellen Sie sicher, dass der Fehler behoben wird und keine neuen Probleme eingeführt werden."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_category__name
+msgid ""
+"Enter a unique name for the checklist category. This name will identify the category within the system and should be "
+"meaningful."
+msgstr ""
+"Geben Sie einen eindeutigen Namen für die Kategorie der Checkliste ein. Geben Sie einen eindeutigen Namen für die "
+"Checklistenkategorie ein. Dieser Name identifiziert die Kategorie innerhalb des Systems und sollte aussagekräftig sein."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__name
+msgid "Enter a unique name for the checklist. This will help identify the checklist for the task or project."
+msgstr ""
+"Geben Sie einen eindeutigen Namen für die Checkliste ein. Geben Sie einen eindeutigen Namen für die Checkliste ein. "
+"Dies hilft dabei, die Checkliste für die Aufgabe oder das Projekt zu identifizieren."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item__name
+msgid ""
+"Enter the name of the checklist item. This should be a brief, descriptive title of the task or step in the checklist."
+msgstr ""
+"Geben Sie den Namen der Checkliste ein. Geben Sie den Namen des Checklistenelements ein. Dies sollte ein kurzer, "
+"beschreibender Titel der Aufgabe oder des Schritts in der Checkliste sein."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item__name
+msgid "Enter the name of the checklist item. This will be the label or title of the item."
+msgstr ""
+"Geben Sie den Namen der Checkliste ein. Geben Sie den Namen des Checklistenelements ein. Dies wird die Bezeichnung "
+"oder der Titel des Elements sein."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__name
+msgid "Enter the name of the checklist. This will be used to identify the checklist in the system."
+msgstr ""
+"Geben Sie den Namen der Checkliste ein. Geben Sie den Namen der Checkliste ein. Dieser wird verwendet, um die "
+"Checkliste im System zu identifizieren."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item__sequence
+msgid ""
+"Enter the sequence number for the checklist item. This will determine the order of items in the checklist. By default, "
+"the first item will have sequence 1."
+msgstr ""
+"Geben Sie die Sequenznummer für die Checkliste ein. Geben Sie die Sequenznummer für das Checklistenelement ein. "
+"Dadurch wird die Reihenfolge der Elemente in der Checkliste bestimmt. Standardmäßig hat das erste Element die Sequenz "
+"1."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1
+msgid "Establish project objectives, goals, deliverables, timeline, and stakeholders."
+msgstr "Festlegen von Projektzielen, Zielen, Leistungen, Zeitleisten und Stakeholdern."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_6
+msgid "Execute project phases"
+msgstr "Projektphasen ausführen"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_feature_request
+msgid "Feature Request"
+msgstr "Feature -Anfrage"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_13
+msgid "Finalize the task, ensuring all deliverables are completed and meet the required standards."
+msgstr ""
+"Schließen Sie die Aufgabe ab und stellen Sie sicher, dass alle Leistungen abgeschlossen sind und die erforderlichen "
+"Standards erfüllen."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_2_client_onboarding
+msgid "Gather Client Requirements"
+msgstr "Kundenanforderungen sammeln"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_general_task
+msgid "General Task"
+msgstr "Allgemeine Aufgabe"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_10
+msgid "Hand over the final deliverables to stakeholders and gather feedback for future improvements."
+msgstr "Übergeben Sie die endgültigen Leistungen an die Stakeholder und sammeln Feedback für zukünftige Verbesserungen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__has_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__has_checklist
+msgid "Has Checklist"
+msgstr "Hat Checkliste"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_5
+msgid "Hold a meeting with stakeholders to discuss project scope, expectations, and roles."
+msgstr "Halten Sie ein Treffen mit den Stakeholdern ab, um Projektumfang, Erwartungen und Rollen zu besprechen."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_11
+msgid "Hold a post-mortem meeting to discuss lessons learned, project successes, and areas for improvement."
+msgstr "Führen Sie ein Post-Mortem-Meeting ab, um Erkenntnisse, Projekterfolge und Verbesserungsbereiche zu diskutieren."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_2_post_review
+msgid "Hold a retrospective meeting with the team to discuss project outcomes."
+msgstr "Führen Sie ein retrospektives Treffen mit dem Team ab, um die Projektergebnisse zu besprechen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task_type__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__id
+msgid "ID"
+msgstr "AUSWEIS"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_2
+msgid "Identify and onboard team members based on skills and project requirements."
+msgstr "Identifizieren und Onboard -Teammitglieder anhand von Fähigkeiten und Projektanforderungen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_5
+msgid "Identify area for improvement"
+msgstr "Verbesserungsbereich identifizieren"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_10
+msgid "Identify resources"
+msgstr "Ressourcen identifizieren"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_5
+msgid "Identify the area in the feature or process that needs improvement."
+msgstr "Identifizieren Sie den Bereich in der Funktion oder im Prozess, die verbessert werden müssen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_10
+msgid "Identify the resources (personnel, tools, materials) needed to complete the task."
+msgstr ""
+"Identifizieren Sie die Ressourcen (Personal, Werkzeuge, Materialien), die zur Erfüllung der Aufgabe erforderlich sind."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task_type__restrict_task_completion
+msgid "If selected, tasks cannot go to the stage created until all checklist items are either completed or cancelled."
+msgstr ""
+"Wenn ausgewählt, können die Aufgaben erst dann auf die erstellte Bühne gehen, wenn alle Checklistenelemente entweder "
+"abgeschlossen oder storniert werden.Wenn ausgewählt, können Aufgaben erst dann in die erstellte Phase übergehen, wenn "
+"alle Checklistenelemente entweder abgeschlossen oder abgebrochen sind."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_7
+msgid "Implement the chosen solution or improvement in the product or process."
+msgstr "Implementieren Sie die ausgewählte Lösung oder Verbesserung des Produkts oder des Prozesses."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_3
+msgid "Implement the feature based on the defined scope and design mockups."
+msgstr "Implementieren Sie die Funktion basierend auf den definierten Umfangs- und Design -Modellen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.checklist_item_2
+msgid "Implement the fix for the bug."
+msgstr "Implementieren Sie die Lösung für den Fehler."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_7
+msgid "Implement the improvement"
+msgstr "Implementieren Sie die Verbesserung"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_improvement
+msgid "Improvement"
+msgstr "Verbesserung"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__checklist_item_line__state__in_progress
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__project_checklist_item_line__state__in_progress
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "In Progress"
+msgstr "In Bearbeitung"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__state
+msgid "Indicates the status of the checklist item. You can set the item as To Do, In Progress, Done, or Cancelled."
+msgstr ""
+"Zeigt den Status der Checkliste an. Zeigt den Status des Checklistenelements an. Sie können das Element als Zu "
+"erledigen, In Bearbeitung, Erledigt oder Abgebrochen festlegen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__has_checklist
+msgid "Indicates whether the task has any associated checklist. This helps to track tasks with checklists."
+msgstr ""
+"Gibt an, ob die Aufgabe eine assoziierte Checkliste enthält. Zeigt an, ob der Aufgabe eine Checkliste zugeordnet ist. "
+"Dies hilft dabei, Aufgaben mit Checklisten zu verfolgen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__has_checklist
+msgid ""
+"Indicates whether the task has associated checklists. This helps in determining if the task requires checklist "
+"tracking."
+msgstr ""
+"Gibt an, ob die Aufgabe Checklisten zugeordnet haben. Zeigt an, ob der Aufgabe Checklisten zugeordnet sind. Dies hilft "
+"dabei, festzustellen, ob die Aufgabe eine Checklistenverfolgung erfordert."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_client_onboarding
+msgid "Initial Client Meeting"
+msgstr "Erstes Kundenbesprechung"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "Invalid checklist_id: %(id)s"
+msgstr "Ungültige Checklisten-ID: %(id)s"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_5
+msgid "Kickoff meeting"
+msgstr "Kickoff -Meeting"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__projects_id
+msgid ""
+"Link the checklist item line to a specific project. This helps to identify which project the checklist belongs to."
+msgstr ""
+"Verknüpfen Sie die Checklisteelementzeile mit einem bestimmten Projekt. Verknüpfen Sie die Checklistenelementzeile mit "
+"einem bestimmten Projekt. Dies hilft dabei, zu identifizieren, zu welchem ​​Projekt die Checkliste gehört."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__project_id
+msgid "Link the checklist to a specific project. This defines the project under which the checklist belongs."
+msgstr ""
+"Verknüpfen Sie die Checkliste mit einem bestimmten Projekt. Verknüpfen Sie die Checkliste mit einem bestimmten "
+"Projekt. Dies definiert das Projekt, zu dem die Checkliste gehört."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__task_ids
+msgid "Link the checklist to a specific task. This defines the task that the checklist will be applied to."
+msgstr ""
+"Verknüpfen Sie die Checkliste mit einer bestimmten Aufgabe. Verknüpfen Sie die Checkliste mit einer bestimmten "
+"Aufgabe. Dies definiert die Aufgabe, auf die die Checkliste angewendet wird."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__checklist_id
+msgid "Link this line to a specific checklist. This helps to associate the checklist item with a particular checklist."
+msgstr ""
+"Verknüpfen Sie diese Zeile mit einer bestimmten Checkliste. Verknüpfen Sie diese Zeile mit einer bestimmten "
+"Checkliste. Dies hilft dabei, das Checklistenelement einer bestimmten Checkliste zuzuordnen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_12
+msgid "Monitor progress"
+msgstr "Überwachen Sie den Fortschritt"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_7
+msgid "Monitor progress and adjust"
+msgstr "Überwachen Sie den Fortschritt und passen Sie an"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_12
+msgid "Monitor the progress of the task, ensuring that all aspects are on track."
+msgstr "Überwachen Sie den Fortschritt der Aufgabe und stellen Sie sicher, dass alle Aspekte auf dem richtigen Weg sind."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "Multiple Categories Found"
+msgstr "Mehrere Kategorien gefunden"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__name
+msgid "Name"
+msgstr "Name"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.checklist_item_1
+msgid "Outline the steps to reproduce the bug."
+msgstr "Umzusetzen Sie die Schritte, um den Fehler zu reproduzieren."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_2_quality_assurance
+msgid "Perform the final round of testing to confirm quality standards are met."
+msgstr "Führen Sie die endgültige Testrunde durch, um zu bestätigen, dass Qualitätsstandards erfüllt sind."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "Please select a category first before selecting a checklist."
+msgstr ""
+"Bitte wählen Sie zuerst eine Kategorie aus, bevor Sie eine Checkliste auswählen.Wählen Sie bitte zuerst eine Kategorie "
+"aus, bevor Sie eine Checkliste auswählen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_post_review
+msgid "Post-Project Review"
+msgstr "Überprüfung nach dem Projekt"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_post_review
+msgid "Post-Project Review Checklist"
+msgstr "Checkliste nach der Project Review"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_4
+msgid "Prepare necessary tools, software, and documentation for project execution."
+msgstr "Erstellen Sie die erforderlichen Tools, Software und Dokumentation für die Projektausführung."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_9
+msgid "Prepare project documentation"
+msgstr "Projektdokumentation vorbereiten"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_6
+msgid "Progress through each project phase, completing tasks and achieving milestones."
+msgstr "Fortschritte in jeder Projektphase, Erfüllung von Aufgaben und Erreichen von Meilensteinen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_project
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_project
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__project_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__project_id
+msgid "Project"
+msgstr "Projekt"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.project_checklist_action
+#: model:ir.ui.menu,name:zehntech_project_task_checklist.project_checklist_menu
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_search
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_tree
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_checklist
+msgid "Project Checklist"
+msgstr "Projekt-Checkliste"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_checklist_item
+msgid "Project Checklist Item"
+msgstr "Projekt-Checklistenelement"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_checklist_item_line
+msgid "Project Checklist Item Line"
+msgstr "Projekt-Checklistenelementzeile"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_11
+msgid "Project closure and post-mortem"
+msgstr "Projektverschluss und Post-Mortem"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__projects_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__projects_id
+msgid "Projects"
+msgstr "Projekte"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__description
+msgid "Provide a brief description of the checklist, explaining its purpose or usage."
+msgstr ""
+"Geben Sie eine kurze Beschreibung der Checkliste an und erläutern Sie ihren Zweck oder ihre Verwendung.Geben Sie eine "
+"kurze Beschreibung der Checkliste an und erläutern Sie ihren Zweck oder ihre Verwendung."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__description
+msgid "Provide a brief description or additional details about this checklist item line, if necessary."
+msgstr ""
+"Geben Sie gegebenenfalls eine kurze Beschreibung oder zusätzliche Details zu dieser Checkliste -Elementzeile an.Geben "
+"Sie bei Bedarf eine kurze Beschreibung oder zusätzliche Details zu dieser Checklistenelementzeile an."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__description
+msgid ""
+"Provide a description or additional details for the checklist item. This could be instructions or a more detailed "
+"explanation."
+msgstr ""
+"Geben Sie eine Beschreibung oder zusätzliche Details für die Checkliste an. Geben Sie eine Beschreibung oder "
+"zusätzliche Details für das Checklistenelement an. Dies können Anweisungen oder eine ausführlichere Erklärung sein."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item__description
+msgid ""
+"Provide a detailed description of the checklist item. This can explain the task or provide additional instructions on "
+"how to complete the item."
+msgstr ""
+"Geben Sie eine detaillierte Beschreibung des Checklistenelements an. Geben Sie eine ausführliche Beschreibung des "
+"Checklistenelements an. Dies kann die Aufgabe erklären oder zusätzliche Anweisungen zum Abschließen des Elements "
+"enthalten."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item__description
+msgid ""
+"Provide a detailed description of the checklist item. This could include instructions or more details about the task."
+msgstr ""
+"Geben Sie eine detaillierte Beschreibung des Checklistenelements an. Geben Sie eine ausführliche Beschreibung des "
+"Checklistenelements an. Dies kann Anweisungen oder weitere Details zur Aufgabe enthalten."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__description
+msgid ""
+"Provide a detailed description of the checklist. This could include the purpose or specific instructions for "
+"completing the checklist."
+msgstr ""
+"Geben Sie eine detaillierte Beschreibung der Checkliste an. Geben Sie eine ausführliche Beschreibung der Checkliste "
+"an. Dies kann den Zweck oder spezifische Anweisungen zum Abschließen der Checkliste enthalten."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_category__description
+msgid ""
+"Provide a short description of the checklist category. This will help users understand the purpose or scope of this "
+"category."
+msgstr ""
+"Geben Sie eine kurze Beschreibung der Kategorie der Checkliste an. Geben Sie eine kurze Beschreibung der "
+"Checklistenkategorie an. Dies hilft Benutzern, den Zweck oder Umfang dieser Kategorie zu verstehen."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_quality_assurance
+msgid "Quality Assurance"
+msgstr "Qualitätssicherung"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_quality_assurance
+msgid "Quality Assurance Checklist"
+msgstr "Checkliste für Qualitätssicherung"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_7
+msgid "Regularly review progress, resolve issues, and adjust project plans as needed."
+msgstr "Überprüfen Sie den Fortschritt regelmäßig, beheben Sie Probleme und passen Sie Projektpläne nach Bedarf an."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_6
+msgid "Research different approaches to solving the identified problem or improving the process."
+msgstr ""
+"Erforschen Sie unterschiedliche Ansätze zur Lösung des identifizierten Problems oder zur Verbesserung des Prozesses."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_6
+msgid "Research possible solutions"
+msgstr "Forschung mögliche Lösungen"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_resource_management
+msgid "Resource Management"
+msgstr "Ressourcenmanagement"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_resource_management
+msgid "Resource Management Checklist"
+msgstr "Checkliste für Ressourcenverwaltung"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,name:zehntech_project_task_checklist.task_checklist_sample_1
+msgid "Sample Bugs Checklist"
+msgstr "Checkliste für Beispiele für Fehler"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,name:zehntech_project_task_checklist.task_checklist_sample_2
+msgid "Sample Feature Request Checklist"
+msgstr "Checkliste für Beispiele für Funktionsanforderungen"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,name:zehntech_project_task_checklist.task_checklist_sample_4
+msgid "Sample General Task Checklist"
+msgstr "Checkliste für allgemeine Task -Checkliste"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,name:zehntech_project_task_checklist.task_checklist_sample_3
+msgid "Sample Improvement Checklist"
+msgstr "Checkliste für Beispielverbesserung"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample
+msgid "Sample Project Checklist"
+msgstr "Beispielprojekt -Checkliste"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_client_onboarding
+msgid "Schedule a kickoff meeting with the client to discuss objectives and expectations."
+msgstr "Planen Sie ein Kickoff -Meeting mit dem Kunden, um Ziele und Erwartungen zu besprechen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_category__group_permission
+msgid ""
+"Select a user group that has permission to access and manage this checklist category. Only users in the selected group "
+"can modify or view checklists in this category."
+msgstr ""
+"Wählen Sie eine Benutzergruppe aus, die die Berechtigung zum Zugriff auf diese Checkliste -Kategorie hat. Wählen Sie "
+"eine Benutzergruppe aus, die die Berechtigung hat, auf diese Checklistenkategorie zuzugreifen und sie zu verwalten. "
+"Nur Benutzer der ausgewählten Gruppe können Checklisten in dieser Kategorie ändern oder anzeigen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__checklist_id
+msgid ""
+"Select one or more checklists for the task. These checklists contain items that need to be completed during the task."
+msgstr ""
+"Wählen Sie einen oder mehrere Checklisten für die Aufgabe aus. Wählen Sie eine oder mehrere Checklisten für die "
+"Aufgabe aus. Diese Checklisten enthalten Elemente, die während der Aufgabe abgeschlossen werden müssen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__checklist_category
+msgid ""
+"Select the category of the checklist (e.g., Bug Fixes, Feature Requests). This helps organize checklists into groups "
+"for better management."
+msgstr ""
+"Wählen Sie die Kategorie der Checkliste (z. B. Fehlerbehebungen, Feature -Anfragen). Wählen Sie die Kategorie der "
+"Checkliste aus (z. B. Fehlerbehebungen, Funktionsanfragen). Dies hilft dabei, Checklisten in Gruppen zu organisieren, "
+"um die Verwaltung zu verbessern."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__check_list_item_id
+msgid ""
+"Select the checklist item for this line. This links the item to the checklist and helps track its completion status."
+msgstr ""
+"Wählen Sie das Element der Checkliste für diese Zeile aus. Wählen Sie das Checklistenelement für diese Zeile aus. Dies "
+"verknüpft das Element mit der Checkliste und hilft dabei, seinen Abschlussstatus zu verfolgen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__check_list_item_id
+msgid "Select the checklist item this line represents. It links to a specific item in the checklist."
+msgstr ""
+"Wählen Sie das Checklistenelement aus, das diese Zeile darstellt. Wählen Sie das Checklistenelement aus, das diese "
+"Zeile darstellt. Es verknüpft mit einem bestimmten Element in der Checkliste."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item__checklist_id
+msgid "Select the checklist that this item belongs to. This links the checklist item to the overall checklist."
+msgstr ""
+"Wählen Sie die Checkliste aus, zu der dieses Element gehört. Wählen Sie die Checkliste aus, zu der dieses Element "
+"gehört. Dies verknüpft das Checklistenelement mit der Gesamtcheckliste."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item__checklist_id
+msgid "Select the checklist to which this item belongs. This links the item to a specific checklist."
+msgstr ""
+"Wählen Sie die Checkliste aus, zu der dieses Element gehört. Wählen Sie die Checkliste aus, zu der dieses Element "
+"gehört. Dies verknüpft das Element mit einer bestimmten Checkliste."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__checklist_id
+msgid ""
+"Select the checklist to which this item line belongs. It links this item to a larger checklist, helping with "
+"organization."
+msgstr ""
+"Wählen Sie die Checkliste aus, zu der diese Elementzeile gehört. Wählen Sie die Checkliste aus, zu der diese "
+"Elementzeile gehört. Sie verknüpft dieses Element mit einer größeren Checkliste und hilft so bei der Organisation."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__checklist_id
+msgid ""
+"Select the checklists to associate with this task. This links multiple checklists to a task, allowing you to track "
+"various aspects of the task's progress."
+msgstr ""
+"Wählen Sie die Checklisten aus, die mit dieser Aufgabe in Verbindung stehen. Wählen Sie die Checklisten aus, die "
+"dieser Aufgabe zugeordnet werden sollen. Dadurch werden mehrere Checklisten mit einer Aufgabe verknüpft, sodass Sie "
+"verschiedene Aspekte des Aufgabenfortschritts verfolgen können."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__project_id
+msgid "Select the project associated with this checklist. The checklist will be linked to this project."
+msgstr ""
+"Wählen Sie das mit dieser Checkliste zugeordnete Projekt aus. Wählen Sie das mit dieser Checkliste verknüpfte Projekt "
+"aus. Die Checkliste wird mit diesem Projekt verknüpft."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__task_ids
+msgid "Select the task associated with this checklist. The checklist will be linked to this specific task."
+msgstr ""
+"Wählen Sie die mit dieser Checkliste zugeordnete Aufgabe aus. Wählen Sie die mit dieser Checkliste verknüpfte Aufgabe "
+"aus. Die Checkliste wird mit dieser bestimmten Aufgabe verknüpft."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__sequence
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__sequence
+msgid "Sequence"
+msgstr "Sequenz"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item__sequence
+msgid "Set the order in which the checklist item should appear. The lower the number, the higher the priority."
+msgstr ""
+"Stellen Sie die Bestellung fest, in der das Checklisteelement angezeigt werden soll. Legen Sie die Reihenfolge fest, "
+"in der die Checklistenelemente erscheinen sollen. Je niedriger die Zahl, desto höher die Priorität."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_4
+msgid "Set up project environment"
+msgstr "Projektumgebung einrichten"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_post_review
+msgid "Solicit feedback from the client to evaluate project success."
+msgstr "Fordern Sie das Feedback des Kunden ein, den Projekterfolg zu bewerten."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__state
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__state
+msgid "Status"
+msgstr "Status"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_task
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__task_ids
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__task_ids
+msgid "Task"
+msgstr "Aufgabe"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.task_checklist_action
+#: model:ir.ui.menu,name:zehntech_project_task_checklist.task_checklist_menu
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_search
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_tree
+#: model:ir.model,name:zehntech_project_task_checklist.model_task_checklist
+msgid "Task Checklist"
+msgstr "Aufgaben-Checkliste"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_task_type
+msgid "Task Stage"
+msgstr "Aufgabenphase"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_4
+msgid "Test the feature"
+msgstr "Testen Sie die Funktion"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_4
+msgid "Test the feature thoroughly to ensure it meets the defined requirements and works as expected."
+msgstr ""
+"Testen Sie die Funktion gründlich, um sicherzustellen, dass sie den definierten Anforderungen und Funktionen wie "
+"erwartet erfüllt."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.checklist_item_3
+msgid "Test the fix"
+msgstr "Testen Sie die Fix"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_8
+msgid "Test the implemented improvement to verify that it works as intended and achieves the desired results."
+msgstr ""
+"Testen Sie die implementierte Verbesserung, um zu überprüfen, ob sie wie beabsichtigt funktioniert und die gewünschten "
+"Ergebnisse erzielt."
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_8
+msgid "Test the improvement"
+msgstr "Testen Sie die Verbesserung"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/checklist_category.py:0
+msgid "The Checklist Category name must be unique."
+msgstr "Der Name der Checklistenkategorie muss eindeutig sein."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "The Checklist Item name must be unique."
+msgstr "Der Name des Checklistenelements muss eindeutig sein."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "The checklist item '%s' is already added to this checklist."
+msgstr "Das Checklistenelement „%s“ wurde dieser Checkliste bereits hinzugefügt."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__checklists
+msgid ""
+"The checklist items that are part of this task. Each checklist item corresponds to a specific action or step in the "
+"task's completion."
+msgstr ""
+"Die Checklisteelemente, die Teil dieser Aufgabe sind. Die Checklistenelemente, die Teil dieser Aufgabe sind. Jedes "
+"Checklistenelement entspricht einer bestimmten Aktion oder einem bestimmten Schritt bei der Erledigung der Aufgabe."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__state
+msgid ""
+"The current status of the checklist item. Choose the appropriate status based on the progress of the item: 'To Do', "
+"'In Progress', 'Done', or 'Cancelled'."
+msgstr ""
+"Der aktuelle Status des Checklisteelements. Der aktuelle Status des Checklistenelements. Wählen Sie den entsprechenden "
+"Status basierend auf dem Fortschritt des Elements: „Zu erledigen“, „In Bearbeitung“, „Erledigt“ oder „Abgebrochen“."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "The following users do not have access to the selected category: %(user_names)s"
+msgstr "Die folgenden Benutzer haben keinen Zugriff auf die ausgewählte Kategorie: %(user_names)s"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+msgid "The following users do not have access to the selected category: %(users)s"
+msgstr "Die folgenden Benutzer haben keinen Zugriff auf die ausgewählte Kategorie: %(users)s"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid ""
+"The selected checklist(s) '%(checklist_names)s' belong(s) to the category '%(category_name)s', which does not match "
+"the selected category '%(selected_category)s'."
+msgstr ""
+"Die ausgewählten Checklisten „%(checklist_names)s“ gehören zur Kategorie „%(category_name)s“, die nicht mit der "
+"ausgewählten Kategorie „%(selected_category)s“ übereinstimmt."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "The selected users are associated with multiple categories. Please choose one manually."
+msgstr ""
+"Die ausgewählten Benutzer sind mehreren Kategorien zugeordnet. Die ausgewählten Benutzer sind mehreren Kategorien "
+"zugeordnet. Bitte wählen Sie manuell eine aus."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__checklist_ids
+msgid "These are the items that belong to this checklist. You can associate multiple items with a checklist."
+msgstr ""
+"Dies sind die Elemente, die zu dieser Checkliste gehören. Dies sind die Elemente, die zu dieser Checkliste gehören. "
+"Sie können einer Checkliste mehrere Elemente zuordnen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__checklists
+msgid ""
+"This field contains the list of items associated with the selected checklists. These items track the progress of the "
+"checklist."
+msgstr ""
+"Dieses Feld enthält die Liste der Elemente, die den ausgewählten Checklisten zugeordnet sind. Dieses Feld enthält die "
+"Liste der Elemente, die den ausgewählten Checklisten zugeordnet sind. Diese Elemente verfolgen den Fortschritt der "
+"Checkliste."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__checklist_ids
+msgid ""
+"This field holds the individual items for the checklist. These are the tasks or steps that need to be completed within "
+"the checklist."
+msgstr ""
+"Dieses Feld enthält die einzelnen Elemente für die Checkliste. Dieses Feld enthält die einzelnen Elemente für die "
+"Checkliste. Dies sind die Aufgaben oder Schritte, die innerhalb der Checkliste abgeschlossen werden müssen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__projects_id
+msgid ""
+"This field is automatically set to the task associated with the checklist item. It indicates which project task this "
+"checklist item belongs to."
+msgstr ""
+"Dieses Feld wird automatisch auf die mit dem Checkliste zugeordnete Aufgabe eingestellt. Dieses Feld wird automatisch "
+"auf die mit dem Checklistenelement verknüpfte Aufgabe eingestellt. Es gibt an, zu welcher Projektaufgabe dieses "
+"Checklistenelement gehört."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__checklist_progress
+msgid ""
+"This field shows the progress percentage of the checklist items in the task. It is computed based on the completion "
+"status of checklist items."
+msgstr ""
+"Dieses Feld zeigt den Fortschrittsprozentsatz der Checklistenelemente in der Aufgabe. Dieses Feld zeigt den "
+"prozentualen Fortschritt der Checklistenelemente in der Aufgabe an. Er wird basierend auf dem Abschlussstatus der "
+"Checklistenelemente berechnet."
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,description:zehntech_project_task_checklist.task_checklist_sample_1
+msgid "This is a sample checklist for bug fix tasks."
+msgstr "Dies ist eine Beispiel -Checkliste für Fehlerbehebungsaufgaben."
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample
+msgid "This is a sample checklist to track the overall progress of a project."
+msgstr "Dies ist eine Beispiel -Checkliste, um den Gesamtfortschritt eines Projekts zu verfolgen."
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__checklist_item_line__state__todo
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__project_checklist_item_line__state__todo
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "To Do"
+msgstr "Zu erledigen"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__display_name
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"            #tags Set tags on the task\n"
+"            @user Assign the task to a user\n"
+"            ! Set the task a medium priority\n"
+"            !! Set the task a high priority\n"
+"            !!! Set the task a urgent priority\n"
+"\n"
+"            Make sure to use the right format and order e.g. Improve the configuration screen #feature #v16 @Mitchell !"
+msgstr ""
+"Verwenden Sie diese Schlüsselwörter im Titel, um neue Aufgaben zu erstellen:\n"
+"\n"
+"#tags Tags für die Aufgabe festlegen\n"
+"\n"
+"@user Aufgabe einem Benutzer zuweisen\n"
+"\n"
+"! Mittlere Priorität für die Aufgabe festlegen\n"
+"\n"
+"!! Hohe Priorität für die Aufgabe festlegen\n"
+"\n"
+"!!! Dringende Priorität für die Aufgabe festlegen\n"
+"\n"
+"Achten Sie auf das richtige Format und die richtige Reihenfolge, z. B. Verbesserung des Konfigurationsbildschirms "
+"#feature #v16 @Mitchell !"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__group_permission
+msgid "User Group"
+msgstr "Benutzergruppe"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_quality_assurance
+msgid "Verify Quality Standards Compliance"
+msgstr "Überprüfen Sie die Einhaltung von Qualitätsstandards"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_compliance
+msgid "Verify that data security and privacy policies are implemented correctly."
+msgstr "Stellen Sie sicher, dass Datensicherheit und Datenschutzrichtlinien korrekt implementiert werden."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+msgid "You cannot assign this Project/checklist to %(user)s because they are not in the same group as you."
+msgstr ""
+"Sie können dieses Projekt/diese Checkliste nicht %(user)s zuweisen, da diese nicht zur selben Gruppe wie Sie gehören."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "You cannot assign this task/checklist to %(user)s because they are not in the same group as you."
+msgstr "Sie können diese Aufgabe/Checkliste nicht %(user)s zuweisen, da diese nicht zur selben Gruppe wie Sie gehören."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "You cannot create a task in the selected stage as it is restricted."
+msgstr ""
+"Sie können in der ausgewählten Phase keine Aufgabe erstellen, da sie eingeschränkt ist.Sie können in der ausgewählten "
+"Phase keine Aufgabe erstellen, da diese eingeschränkt ist."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "You cannot move the task to the stage '%(stage)s' until all checklist items are either completed or canceled."
+msgstr ""
+"Sie können die Aufgabe nicht in die Phase „%(stage)s“ verschieben, bis alle Checklistenelemente entweder abgeschlossen "
+"oder abgebrochen sind."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to Update this Project based on the checklist category's group permissions."
+msgstr ""
+"Sie haben nicht die erforderlichen Berechtigungen, um dieses Projekt basierend auf den Gruppenberechtigungen der "
+"Checkliste zu aktualisieren.Sie verfügen nicht über die erforderlichen Berechtigungen, um dieses Projekt basierend auf "
+"den Gruppenberechtigungen der Checklistenkategorie zu aktualisieren."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to Update this task based on the checklist category's group permissions."
+msgstr ""
+"Sie haben nicht die erforderlichen Berechtigungen, um diese Aufgabe basierend auf den Gruppenberechtigungen der "
+"Checkliste zu aktualisieren.Sie verfügen nicht über die erforderlichen Berechtigungen, um diese Aufgabe basierend auf "
+"den Gruppenberechtigungen der Checklistenkategorie zu aktualisieren."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to create this Project based on the checklist category's group permissions."
+msgstr ""
+"Sie haben nicht die erforderlichen Berechtigungen, um dieses Projekt basierend auf den Gruppenberechtigungen der "
+"Checkliste zu erstellen.Sie verfügen nicht über die erforderlichen Berechtigungen, um dieses Projekt basierend auf den "
+"Gruppenberechtigungen der Checklistenkategorie zu erstellen."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to create this task based on the checklist category's group permissions."
+msgstr ""
+"Sie haben nicht die erforderlichen Berechtigungen, um diese Aufgabe basierend auf den Gruppenberechtigungen der "
+"Checkliste zu erstellen.Sie verfügen nicht über die erforderlichen Berechtigungen, um diese Aufgabe basierend auf den "
+"Gruppenberechtigungen der Checklistenkategorie zu erstellen."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to update the checklist item because you are not part of the required group."
+msgstr ""
+"Sie haben nicht die erforderlichen Berechtigungen, um das Checklisteelement zu aktualisieren, da Sie nicht Teil der "
+"erforderlichen Gruppe sind.Sie verfügen nicht über die erforderlichen Berechtigungen, um das Checklistenelement zu "
+"aktualisieren, da Sie nicht Teil der erforderlichen Gruppe sind."
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "You must add at least one item to the checklist."
+msgstr "Sie müssen der Checkliste mindestens ein Element hinzufügen."

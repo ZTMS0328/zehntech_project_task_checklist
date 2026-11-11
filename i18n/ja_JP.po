@@ -1,0 +1,1313 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* zehntech_project_task_checklist
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-13 11:39+0000\n"
+"PO-Revision-Date: 2025-11-13 17:13+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "<span style=\"font-weight: bold; color: #4A4A4A; margin-right: 10px;\">Checklist Progress:</span>"
+msgstr "<span style=\"font-weight: bold; color: #4A4A4A; margin-right: 10px;\">チェックリストの進捗状況:</span>"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_progress_inherited_kanban
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_inherited_kanban
+msgid "<span style=\"font-weight: bold; color: #4A4A4A; margin-right: 6px;\" class=\"o_kanban_label\">Checklist:</span>"
+msgstr ""
+"<span style=\"font-weight: bold; color: #4A4A4A; margin-right: 6px;\" class=\"o_kanban_label\">チェックリスト:</span>"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,description:zehntech_project_task_checklist.task_checklist_sample_3
+msgid "A checklist for addressing improvements in existing features or functionality."
+msgstr "既存の機能や機能性の改善に対処するためのチェックリスト。"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,description:zehntech_project_task_checklist.task_checklist_sample_2
+msgid "A checklist for managing the development of a new feature."
+msgstr "新機能の開発を管理するためのチェックリスト。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "A checklist with the same name already exists in this category."
+msgstr "このカテゴリには、同じ名前のチェックリストが既に存在します。"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,description:zehntech_project_task_checklist.task_checklist_sample_4
+msgid "A generic checklist for managing general tasks in a project."
+msgstr "プロジェクトの一般的なタスクを管理するための汎用チェックリスト。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_resource_management
+msgid "Allocate Team Members to Tasks"
+msgstr "チーム メンバーをタスクに割り当てる"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__category_domain
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__category_domain
+msgid "Allowed Categories"
+msgstr "許可されたカテゴリ"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.checklist_item_2
+msgid "Apply the fix"
+msgstr "修正を適用する"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_2
+msgid "Assemble project team"
+msgstr "プロジェクト チームを編成する"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__checklist_category
+msgid ""
+"Assign a category to the checklist. This helps to organize the checklists into relevant categories (e.g., 'Bug Fixes', "
+"'Feature Requests')."
+msgstr ""
+"チェックリストにカテゴリを割り当てます。これは、チェックリストを関連するカテゴリ (「バグ修正」、「機能リクエスト」な"
+"ど) に整理するのに役立ちます。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_resource_management
+msgid "Assign team members to tasks based on skill sets."
+msgstr "スキル セットに基づいてチーム メンバーをタスクに割り当てます。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_sample_1
+msgid "Bug Fix"
+msgstr "バグ修正"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__checklist_item_line__state__cancel
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__project_checklist_item_line__state__cancel
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "Cancelled"
+msgstr "キャンセル済み"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__checklist_category
+msgid ""
+"Categorize this checklist. The checklist category groups tasks by similar types or classifications, providing better "
+"organization and filtering."
+msgstr ""
+"このチェックリストを分類します。チェックリスト カテゴリは、同様のタイプまたは分類ごとにタスクをグループ化し、より適切な"
+"整理とフィルタリングを提供します。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__check_list_item_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__check_list_item_id
+msgid "Check List Item"
+msgstr "チェックリスト項目"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_form
+msgid "CheckList Items"
+msgstr "チェックリスト項目"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklist_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklist_id
+#: model:ir.ui.menu,name:zehntech_project_task_checklist.checklist_menu_root
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "Checklist"
+msgstr "チェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.checklist_category_action
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__checklist_category
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklist_category
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklist_category
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__checklist_category
+#: model:ir.ui.menu,name:zehntech_project_task_checklist.checklist_category_menu
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.checklist_category_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.checklist_category_action_tree
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_search
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_search
+#: model:ir.model,name:zehntech_project_task_checklist.model_checklist_category
+msgid "Checklist Category"
+msgstr "チェックリスト カテゴリ"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklist_domain
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklist_domain
+msgid "Checklist Domain"
+msgstr "チェックリスト ドメイン"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.checklist_item_action
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.project_checklist_item_action
+#: model:ir.model,name:zehntech_project_task_checklist.model_checklist_item
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.checklist_item_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_item_action_form
+msgid "Checklist Item"
+msgstr "チェックリスト項目"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_checklist_item_line
+msgid "Checklist Item Line"
+msgstr "チェックリスト項目行"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__checklist_ids
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklists
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklists
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__checklist_ids
+msgid "Checklist Items"
+msgstr "チェックリスト項目"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__checklist_progress
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__checklist_progress
+msgid "Checklist Progress in %"
+msgstr "チェックリストの進捗状況 (%)"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task_type__restrict_task_completion
+msgid "Checklist Task Progress Restriction"
+msgstr "チェックリスト タスクの進捗状況の制限"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_quality_assurance
+msgid "Checklist for ensuring that quality assurance measures are met throughout the project."
+msgstr "プロジェクト全体で品質保証基準が満たされていることを確認するためのチェックリスト。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_post_review
+msgid "Checklist for evaluating project success and gathering insights post-completion."
+msgstr "プロジェクトの成功を評価し、完了後に洞察を収集するためのチェックリスト。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_extended_client_onboarding
+msgid "Checklist for onboarding clients and setting clear expectations."
+msgstr "クライアントのオンボーディングと明確な期待の設定のためのチェックリスト。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_compliance
+msgid "Checklist to ensure compliance with legal and regulatory standards."
+msgstr "法的および規制基準への準拠を確認するためのチェックリスト。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample_resource_management
+msgid "Checklist to manage resources effectively throughout the project."
+msgstr "プロジェクト全体でリソースを効果的に管理するためのチェックリスト。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__checklist_category
+msgid "Choose a category for the checklist. This will help to organize checklists and differentiate them."
+msgstr "チェックリストのカテゴリを選択します。これにより、チェックリストを整理して区別するのに役立ちます。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_9
+msgid "Clearly outline the objectives and goals of the task."
+msgstr "タスクの目的と目標を明確に概説します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_client_onboarding
+msgid "Client Onboarding"
+msgstr "クライアントオンボーディング"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_extended_client_onboarding
+msgid "Client Onboarding Checklist"
+msgstr "クライアント オンボーディング チェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_post_review
+msgid "Collect Client Feedback"
+msgstr "クライアントからのフィードバックの収集"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_2_client_onboarding
+msgid "Collect detailed requirements to understand the client’s needs and goals."
+msgstr "クライアントのニーズと目標を理解するための詳細な要件を収集します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_9
+msgid "Compile all necessary documentation, including project reports and user guides."
+msgstr "プロジェクトレポートやユーザーガイドなど、必要なすべてのドキュメントをコンパイルします。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_13
+msgid "Complete the task"
+msgstr "タスクを完了します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_compliance
+msgid "Compliance"
+msgstr "コンプライアンス"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_compliance
+msgid "Compliance Checklist"
+msgstr "コンプライアンスチェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_2_quality_assurance
+msgid "Conduct Final QA Testing"
+msgstr "最終QAテストを実施します"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_2_post_review
+msgid "Conduct Internal Project Review"
+msgstr "内部プロジェクトのレビューを実施します"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_compliance
+msgid "Conduct Security and Privacy Checks"
+msgstr "セキュリティとプライバシーのチェックを実施します"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_8
+msgid "Conduct testing and QA"
+msgstr "テストとQAを実施します"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.actions.act_window,help:zehntech_project_task_checklist.project_checklist_action
+#: model_terms:ir.actions.act_window,help:zehntech_project_task_checklist.task_checklist_action
+msgid "Create a checklist"
+msgstr "チェックリストの作成"
+
+#. module: zehntech_project_task_checklist
+#: model_terms:ir.actions.act_window,help:zehntech_project_task_checklist.checklist_category_action
+msgid "Create a checklist Category"
+msgstr "チェックリスト カテゴリの作成"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_3
+msgid "Create a detailed plan including milestones, deadlines, and resource allocation."
+msgstr "マイルストーン、締め切り、リソースの割り当てを含む詳細な計画を作成します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_2
+msgid "Create design mockups"
+msgstr "デザインのモックアップを作成します"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__create_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__create_uid
+msgid "Created by"
+msgstr "作成者"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__create_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__create_date
+msgid "Created on"
+msgstr "作成日"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_1
+msgid "Define feature scope"
+msgstr "機能範囲を定義します"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1
+msgid "Define project scope"
+msgstr "プロジェクトの範囲を定義します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_9
+msgid "Define task objectives"
+msgstr "タスクの目的を定義します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_1
+msgid "Define the purpose, goals, and user requirements for the new feature."
+msgstr "新機能の目的、目標、およびユーザー要件を定義します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_11
+msgid "Delegate responsibilities"
+msgstr "代表責任"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_11
+msgid "Delegate tasks to the appropriate team members based on their expertise and availability."
+msgstr "専門知識と可用性に基づいて、適切なチームメンバーにタスクを委任します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_10
+msgid "Deliver project and gather feedback"
+msgstr "プロジェクトを提供し、フィードバックを収集します"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__description
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__description
+msgid "Description"
+msgstr "説明"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_2
+msgid "Design the feature's user interface (UI) and create wireframes/mockups."
+msgstr "機能のユーザーインターフェイス（UI）を設計し、ワイヤーフレーム/モックアップを作成します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_3
+msgid "Develop project plan"
+msgstr "プロジェクト計画を作成します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_3
+msgid "Develop the feature"
+msgstr "機能を開発します"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task_type__display_name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__display_name
+msgid "Display Name"
+msgstr "表示名"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__checklist_progress
+msgid "Displays the percentage of checklist items completed for this task, providing a quick overview of progress."
+msgstr "このタスクに対して完了したチェックリスト項目の割合が表示され、進捗状況の概要が簡単にわかります。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.checklist_item_1
+msgid "Document steps"
+msgstr "ドキュメントの手順"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__checklist_item_line__state__done
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__project_checklist_item_line__state__done
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "Done"
+msgstr "完了"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_8
+msgid "Ensure all project outputs meet quality standards and pass required tests."
+msgstr "すべてのプロジェクト出力が品質基準を満たし、必要なテストに合格するようにします。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_quality_assurance
+msgid "Ensure that deliverables meet the established quality standards."
+msgstr "成果物が確立された品質基準を満たしていることを確認してください。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.checklist_item_3
+msgid "Ensure the bug is fixed and no new issues are introduced."
+msgstr "バグが修正され、新しい問題が導入されていないことを確認してください。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_category__name
+msgid ""
+"Enter a unique name for the checklist category. This name will identify the category within the system and should be "
+"meaningful."
+msgstr ""
+"チェックリスト カテゴリの一意の名前を入力します。この名前はシステム内のカテゴリを識別するものであり、意味のある名前にす"
+"る必要があります。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__name
+msgid "Enter a unique name for the checklist. This will help identify the checklist for the task or project."
+msgstr ""
+"チェックリストの一意の名前を入力します。これは、タスクまたはプロジェクトのチェックリストを特定するのに役立ちます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item__name
+msgid ""
+"Enter the name of the checklist item. This should be a brief, descriptive title of the task or step in the checklist."
+msgstr ""
+"チェックリスト項目の名前を入力します。これは、チェックリストのタスクまたはステップの簡潔で説明的なタイトルである必要が"
+"あります。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item__name
+msgid "Enter the name of the checklist item. This will be the label or title of the item."
+msgstr "チェックリスト項目の名前を入力します。これはアイテムのラベルまたはタイトルになります。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__name
+msgid "Enter the name of the checklist. This will be used to identify the checklist in the system."
+msgstr "チェックリストの名前を入力します。これは、システム内のチェックリストを識別するために使用されます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item__sequence
+msgid ""
+"Enter the sequence number for the checklist item. This will determine the order of items in the checklist. By default, "
+"the first item will have sequence 1."
+msgstr ""
+"チェックリスト項目のシーケンス番号を入力します。チェックリスト項目のシーケンス番号を入力します。これにより、チェックリ"
+"スト内の項目の順序が決まります。デフォルトでは、最初の項目のシーケンスは 1 になります。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1
+msgid "Establish project objectives, goals, deliverables, timeline, and stakeholders."
+msgstr "プロジェクトの目標、目標、成果物、タイムライン、および利害関係者を確立します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_6
+msgid "Execute project phases"
+msgstr "プロジェクトフェーズを実行します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_feature_request
+msgid "Feature Request"
+msgstr "機能リクエスト"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_13
+msgid "Finalize the task, ensuring all deliverables are completed and meet the required standards."
+msgstr "タスクを完成させ、すべての成果物が完了し、必要な基準を満たしていることを確認します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_2_client_onboarding
+msgid "Gather Client Requirements"
+msgstr "クライアントの要件を収集します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_general_task
+msgid "General Task"
+msgstr "一般的なタスク"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_10
+msgid "Hand over the final deliverables to stakeholders and gather feedback for future improvements."
+msgstr "最終的な成果物を利害関係者に引き渡し、将来の改善のためにフィードバックを集めます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__has_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__has_checklist
+msgid "Has Checklist"
+msgstr "チェックリストあり"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_5
+msgid "Hold a meeting with stakeholders to discuss project scope, expectations, and roles."
+msgstr "プロジェクトの範囲、期待、役割について議論するために、利害関係者との会議を開催します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_11
+msgid "Hold a post-mortem meeting to discuss lessons learned, project successes, and areas for improvement."
+msgstr "学んだ教訓、プロジェクトの成功、改善の分野について議論するために、死後会議を開催します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_2_post_review
+msgid "Hold a retrospective meeting with the team to discuss project outcomes."
+msgstr "プロジェクトの成果について議論するために、チームとの遡及的な会議を開催します。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_project__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_task_type__id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__id
+msgid "ID"
+msgstr "ID"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_2
+msgid "Identify and onboard team members based on skills and project requirements."
+msgstr "スキルとプロジェクトの要件に基づいて、チームメンバーを特定し、船上のメンバーを特定します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_5
+msgid "Identify area for improvement"
+msgstr "改善の領域を特定します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_10
+msgid "Identify resources"
+msgstr "リソースを特定します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_5
+msgid "Identify the area in the feature or process that needs improvement."
+msgstr "改善が必要な機能またはプロセスの領域を特定します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_10
+msgid "Identify the resources (personnel, tools, materials) needed to complete the task."
+msgstr "タスクを完了するために必要なリソース（人員、ツール、資料）を特定します。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task_type__restrict_task_completion
+msgid "If selected, tasks cannot go to the stage created until all checklist items are either completed or cancelled."
+msgstr ""
+"選択した場合、すべてのチェックリスト項目が完了またはキャンセルされるまで、タスクは作成されたステージに進むことができま"
+"せん。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_7
+msgid "Implement the chosen solution or improvement in the product or process."
+msgstr "選択したソリューションまたは製品またはプロセスの改善を実装します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_3
+msgid "Implement the feature based on the defined scope and design mockups."
+msgstr "定義されたスコープとデザインモックアップに基づいて機能を実装します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.checklist_item_2
+msgid "Implement the fix for the bug."
+msgstr "バグの修正を実装します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_7
+msgid "Implement the improvement"
+msgstr "改善を実装します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_improvement
+msgid "Improvement"
+msgstr "改善"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__checklist_item_line__state__in_progress
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__project_checklist_item_line__state__in_progress
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "In Progress"
+msgstr "進行中"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__state
+msgid "Indicates the status of the checklist item. You can set the item as To Do, In Progress, Done, or Cancelled."
+msgstr "チェックリスト項目のステータスを示します。項目を To Do、進行中、完了、またはキャンセルとして設定できます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__has_checklist
+msgid "Indicates whether the task has any associated checklist. This helps to track tasks with checklists."
+msgstr ""
+"タスクに関連するチェックリストがあるかどうかを示します。これは、チェックリストを使用してタスクを追跡するのに役立ちま"
+"す。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__has_checklist
+msgid ""
+"Indicates whether the task has associated checklists. This helps in determining if the task requires checklist "
+"tracking."
+msgstr ""
+"タスクにチェックリストが関連付けられているかどうかを示します。これは、タスクにチェックリストの追跡が必要かどうかを判断"
+"するのに役立ちます。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_client_onboarding
+msgid "Initial Client Meeting"
+msgstr "最初のクライアント会議"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "Invalid checklist_id: %(id)s"
+msgstr "無効なCheckList_id：％（id）s"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_5
+msgid "Kickoff meeting"
+msgstr "キックオフミーティング"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__write_uid
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__write_uid
+msgid "Last Updated by"
+msgstr "最終更新者"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__write_date
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__write_date
+msgid "Last Updated on"
+msgstr "最終更新日"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__projects_id
+msgid ""
+"Link the checklist item line to a specific project. This helps to identify which project the checklist belongs to."
+msgstr ""
+"チェックリストの項目行を特定のプロジェクトにリンクします。これは、チェックリストがどのプロジェクトに属しているかを識別"
+"するのに役立ちます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__project_id
+msgid "Link the checklist to a specific project. This defines the project under which the checklist belongs."
+msgstr "チェックリストを特定のプロジェクトにリンクします。これにより、チェックリストが属するプロジェクトが定義されます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__task_ids
+msgid "Link the checklist to a specific task. This defines the task that the checklist will be applied to."
+msgstr "チェックリストを特定のタスクにリンクします。これにより、チェックリストが適用されるタスクが定義されます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__checklist_id
+msgid "Link this line to a specific checklist. This helps to associate the checklist item with a particular checklist."
+msgstr ""
+"この行を特定のチェックリストにリンクします。これは、チェックリスト項目を特定のチェックリストに関連付けるのに役立ちま"
+"す。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_12
+msgid "Monitor progress"
+msgstr "進捗状況を監視します"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_7
+msgid "Monitor progress and adjust"
+msgstr "進行状況を監視し、調整します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_12
+msgid "Monitor the progress of the task, ensuring that all aspects are on track."
+msgstr "タスクの進捗状況を監視し、すべての側面が順調に進んでいることを確認します。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "Multiple Categories Found"
+msgstr "複数のカテゴリが見つかりました"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__name
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__name
+msgid "Name"
+msgstr "名前"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.checklist_item_1
+msgid "Outline the steps to reproduce the bug."
+msgstr "バグを再現する手順の概要を説明します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_2_quality_assurance
+msgid "Perform the final round of testing to confirm quality standards are met."
+msgstr "テストの最終ラウンドを実行して、品質基準が満たされていることを確認します。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "Please select a category first before selecting a checklist."
+msgstr "チェックリストを選択する前に、まずカテゴリを選択してください。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_post_review
+msgid "Post-Project Review"
+msgstr "プロジェクト後のレビュー"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_post_review
+msgid "Post-Project Review Checklist"
+msgstr "ポストプロジェクトレビューチェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_4
+msgid "Prepare necessary tools, software, and documentation for project execution."
+msgstr "プロジェクトの実行に必要なツール、ソフトウェア、およびドキュメントを準備します。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_9
+msgid "Prepare project documentation"
+msgstr "プロジェクトのドキュメントを準備します"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_6
+msgid "Progress through each project phase, completing tasks and achieving milestones."
+msgstr "各プロジェクトフェーズを進め、タスクを完了し、マイルストーンを達成します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_project
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_project
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__project_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__project_id
+msgid "Project"
+msgstr "プロジェクト"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.project_checklist_action
+#: model:ir.ui.menu,name:zehntech_project_task_checklist.project_checklist_menu
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_search
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_checklist_action_tree
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_checklist
+msgid "Project Checklist"
+msgstr "プロジェクト チェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_checklist_item
+msgid "Project Checklist Item"
+msgstr "プロジェクト チェックリスト項目"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_checklist_item_line
+msgid "Project Checklist Item Line"
+msgstr "プロジェクト チェックリスト項目行"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_11
+msgid "Project closure and post-mortem"
+msgstr "プロジェクトの閉鎖と死後"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__projects_id
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__projects_id
+msgid "Projects"
+msgstr "プロジェクト"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__description
+msgid "Provide a brief description of the checklist, explaining its purpose or usage."
+msgstr "チェックリストの簡単な説明を入力し、その目的や使用法を説明します。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__description
+msgid "Provide a brief description or additional details about this checklist item line, if necessary."
+msgstr "必要に応じて、このチェックリスト項目行に関する簡単な説明または追加の詳細を入力します。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__description
+msgid ""
+"Provide a description or additional details for the checklist item. This could be instructions or a more detailed "
+"explanation."
+msgstr "チェックリスト項目の説明または追加の詳細を入力します。これは指示またはより詳細な説明である可能性があります。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item__description
+msgid ""
+"Provide a detailed description of the checklist item. This can explain the task or provide additional instructions on "
+"how to complete the item."
+msgstr ""
+"チェックリスト項目の詳細な説明を入力します。これにより、タスクについて説明したり、項目を完了する方法に関する追加の指示"
+"が得られます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item__description
+msgid ""
+"Provide a detailed description of the checklist item. This could include instructions or more details about the task."
+msgstr "チェックリスト項目の詳細な説明を提供します。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__description
+msgid ""
+"Provide a detailed description of the checklist. This could include the purpose or specific instructions for "
+"completing the checklist."
+msgstr ""
+"チェックリストの詳細な説明を提供します。これには、チェックリストを完了するための目的や具体的な指示が含まれる場合があり"
+"ます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_category__description
+msgid ""
+"Provide a short description of the checklist category. This will help users understand the purpose or scope of this "
+"category."
+msgstr ""
+"チェックリスト カテゴリの簡単な説明を入力します。これは、ユーザーがこのカテゴリの目的や範囲を理解するのに役立ちます。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_quality_assurance
+msgid "Quality Assurance"
+msgstr "品質保証"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_quality_assurance
+msgid "Quality Assurance Checklist"
+msgstr "品質保証チェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_7
+msgid "Regularly review progress, resolve issues, and adjust project plans as needed."
+msgstr "定期的に進捗状況を確認し、問題を解決し、必要に応じてプロジェクト計画を調整します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_6
+msgid "Research different approaches to solving the identified problem or improving the process."
+msgstr "特定された問題を解決したり、プロセスを改善するためのさまざまなアプローチを調査します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_6
+msgid "Research possible solutions"
+msgstr "可能な解決策を調査します"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.category,name:zehntech_project_task_checklist.checklist_category_resource_management
+msgid "Resource Management"
+msgstr "リソース管理"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample_resource_management
+msgid "Resource Management Checklist"
+msgstr "リソース管理チェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,name:zehntech_project_task_checklist.task_checklist_sample_1
+msgid "Sample Bugs Checklist"
+msgstr "サンプルバグチェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,name:zehntech_project_task_checklist.task_checklist_sample_2
+msgid "Sample Feature Request Checklist"
+msgstr "サンプル機能要求チェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,name:zehntech_project_task_checklist.task_checklist_sample_4
+msgid "Sample General Task Checklist"
+msgstr "一般的なタスクチェックリストのサンプル"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,name:zehntech_project_task_checklist.task_checklist_sample_3
+msgid "Sample Improvement Checklist"
+msgstr "サンプル改善チェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,name:zehntech_project_task_checklist.project_checklist_sample
+msgid "Sample Project Checklist"
+msgstr "サンプルプロジェクトチェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_client_onboarding
+msgid "Schedule a kickoff meeting with the client to discuss objectives and expectations."
+msgstr "クライアントとのキックオフ会議をスケジュールして、目標と期待について話し合います。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_category__group_permission
+msgid ""
+"Select a user group that has permission to access and manage this checklist category. Only users in the selected group "
+"can modify or view checklists in this category."
+msgstr ""
+"このチェックリストカテゴリにアクセスして管理する許可を持つユーザーグループを選択します。このチェックリスト カテゴリにア"
+"クセスして管理する権限を持つユーザー グループを選択します。選択したグループ内のユーザーのみが、このカテゴリのチェックリ"
+"ストを変更または表示できます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__checklist_id
+msgid ""
+"Select one or more checklists for the task. These checklists contain items that need to be completed during the task."
+msgstr ""
+"タスクのチェックリストを 1 つ以上選択します。これらのチェックリストには、タスク中に完了する必要がある項目が含まれていま"
+"す。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__checklist_category
+msgid ""
+"Select the category of the checklist (e.g., Bug Fixes, Feature Requests). This helps organize checklists into groups "
+"for better management."
+msgstr ""
+"チェックリストのカテゴリを選択します（例：バグ修正、機能要求など）。チェックリストのカテゴリを選択します (例: バグ修"
+"正、機能リクエスト)。これは、チェックリストをグループに整理して管理を改善するのに役立ちます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__check_list_item_id
+msgid ""
+"Select the checklist item for this line. This links the item to the checklist and helps track its completion status."
+msgstr ""
+"この行のチェックリスト項目を選択します。これにより、項目がチェックリストにリンクされ、完了ステータスを追跡するのに役立"
+"ちます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item_line__check_list_item_id
+msgid "Select the checklist item this line represents. It links to a specific item in the checklist."
+msgstr "この行が表すチェックリスト項目を選択します。チェックリスト内の特定の項目にリンクしています。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item__checklist_id
+msgid "Select the checklist that this item belongs to. This links the checklist item to the overall checklist."
+msgstr "この項目が属するチェックリストを選択します。これにより、チェックリスト項目がチェックリスト全体にリンクされます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item__checklist_id
+msgid "Select the checklist to which this item belongs. This links the item to a specific checklist."
+msgstr "この項目が属するチェックリストを選択します。これにより、項目が特定のチェックリストにリンクされます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__checklist_id
+msgid ""
+"Select the checklist to which this item line belongs. It links this item to a larger checklist, helping with "
+"organization."
+msgstr "この品目行が属するチェックリストを選択します。この項目をより大きなチェックリストにリンクし、整理しやすくします。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__checklist_id
+msgid ""
+"Select the checklists to associate with this task. This links multiple checklists to a task, allowing you to track "
+"various aspects of the task's progress."
+msgstr ""
+"このタスクに関連付けるチェックリストを選択します。このタスクに関連付けるチェックリストを選択します。これにより、複数の"
+"チェックリストがタスクにリンクされ、タスクの進行状況のさまざまな側面を追跡できるようになります。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__project_id
+msgid "Select the project associated with this checklist. The checklist will be linked to this project."
+msgstr ""
+"このチェックリストに関連付けられているプロジェクトを選択します。チェックリストはこのプロジェクトにリンクされます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__task_ids
+msgid "Select the task associated with this checklist. The checklist will be linked to this specific task."
+msgstr "このチェックリストに関連付けられたタスクを選択します。チェックリストはこの特定のタスクにリンクされます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item__sequence
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item__sequence
+msgid "Sequence"
+msgstr "シーケンス"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist_item__sequence
+msgid "Set the order in which the checklist item should appear. The lower the number, the higher the priority."
+msgstr "チェックリスト項目が表示される順序を設定します。数値が小さいほど優先度が高くなります。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_4
+msgid "Set up project environment"
+msgstr "プロジェクト環境を設定します"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_post_review
+msgid "Solicit feedback from the client to evaluate project success."
+msgstr "プロジェクトの成功を評価するために、クライアントからのフィードバックを求めます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_item_line__state
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist_item_line__state
+msgid "Status"
+msgstr "ステータス"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_task
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_project_checklist__task_ids
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_task_checklist__task_ids
+msgid "Task"
+msgstr "タスク"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.actions.act_window,name:zehntech_project_task_checklist.task_checklist_action
+#: model:ir.ui.menu,name:zehntech_project_task_checklist.task_checklist_menu
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_form
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_search
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.task_checklist_action_tree
+#: model:ir.model,name:zehntech_project_task_checklist.model_task_checklist
+msgid "Task Checklist"
+msgstr "タスク チェックリスト"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model,name:zehntech_project_task_checklist.model_project_task_type
+msgid "Task Stage"
+msgstr "タスク工程"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_4
+msgid "Test the feature"
+msgstr "機能をテストします"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_4
+msgid "Test the feature thoroughly to ensure it meets the defined requirements and works as expected."
+msgstr "機能を徹底的にテストして、定義された要件を満たし、期待どおりに機能することを確認します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.checklist_item_3
+msgid "Test the fix"
+msgstr "修正をテストします"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,description:zehntech_project_task_checklist.task_checklist_item_8
+msgid "Test the implemented improvement to verify that it works as intended and achieves the desired results."
+msgstr "実装された改善をテストして、それが意図したとおりに機能し、望ましい結果を達成することを確認します。"
+
+#. module: zehntech_project_task_checklist
+#: model:checklist.item,name:zehntech_project_task_checklist.task_checklist_item_8
+msgid "Test the improvement"
+msgstr "改善をテストします"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/checklist_category.py:0
+msgid "The Checklist Category name must be unique."
+msgstr "チェックリスト カテゴリ名は一意である必要があります。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "The Checklist Item name must be unique."
+msgstr "チェックリスト項目名は一意である必要があります。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "The checklist item '%s' is already added to this checklist."
+msgstr "チェックリスト項目 '%s' は既にこのチェックリストに追加されています。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__checklists
+msgid ""
+"The checklist items that are part of this task. Each checklist item corresponds to a specific action or step in the "
+"task's completion."
+msgstr ""
+"このタスクの一部であるチェックリスト項目。チェックリストの各項目は、タスクを完了するための特定のアクションまたはステッ"
+"プに対応します。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__state
+msgid ""
+"The current status of the checklist item. Choose the appropriate status based on the progress of the item: 'To Do', "
+"'In Progress', 'Done', or 'Cancelled'."
+msgstr ""
+"チェックリストアイテムの現在のステータス。チェックリスト項目の現在のステータス。項目の進行状況に基づいて、「To Do」、"
+"「進行中」、「完了」、または「キャンセル」から適切なステータスを選択します。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "The following users do not have access to the selected category: %(user_names)s"
+msgstr "次のユーザーは選択したカテゴリにアクセスできません: %(user_names)s"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+msgid "The following users do not have access to the selected category: %(users)s"
+msgstr "次のユーザーは選択したカテゴリにアクセスできません: %(users)s"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid ""
+"The selected checklist(s) '%(checklist_names)s' belong(s) to the category '%(category_name)s', which does not match "
+"the selected category '%(selected_category)s'."
+msgstr ""
+"選択したチェックリスト '%(checklist_names)s' はカテゴリ '%(category_name)s' に属していますが、選択したカテゴリ '%"
+"(selected_category)s' と一致しません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "The selected users are associated with multiple categories. Please choose one manually."
+msgstr "選択したユーザーは複数のカテゴリに関連付けられています。手動で選択してください。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_checklist__checklist_ids
+msgid "These are the items that belong to this checklist. You can associate multiple items with a checklist."
+msgstr "これらはこのチェックリストに属する項目です。複数の項目をチェックリストに関連付けることができます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__checklists
+msgid ""
+"This field contains the list of items associated with the selected checklists. These items track the progress of the "
+"checklist."
+msgstr ""
+"このフィールドには、選択したチェックリストに関連付けられた項目のリストが含まれます。これらの項目は、チェックリストの進"
+"行状況を追跡します。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_task_checklist__checklist_ids
+msgid ""
+"This field holds the individual items for the checklist. These are the tasks or steps that need to be completed within "
+"the checklist."
+msgstr ""
+"このフィールドには、チェックリストの個々の項目が保持されます。これらは、チェックリスト内で完了する必要があるタスクまた"
+"はステップです。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_checklist_item_line__projects_id
+msgid ""
+"This field is automatically set to the task associated with the checklist item. It indicates which project task this "
+"checklist item belongs to."
+msgstr "このフィールドは、チェックリスト項目に関連付けられたタスクに自動的に設定されます。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_project__checklist_progress
+msgid ""
+"This field shows the progress percentage of the checklist items in the task. It is computed based on the completion "
+"status of checklist items."
+msgstr ""
+"このフィールドには、タスク内のチェックリスト項目の進捗率が表示されます。チェックリスト項目の完了状況に基づいて計算され"
+"ます。"
+
+#. module: zehntech_project_task_checklist
+#: model:task.checklist,description:zehntech_project_task_checklist.task_checklist_sample_1
+msgid "This is a sample checklist for bug fix tasks."
+msgstr "これは、バグ修正タスクのサンプルチェックリストです。"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist,description:zehntech_project_task_checklist.project_checklist_sample
+msgid "This is a sample checklist to track the overall progress of a project."
+msgstr "これは、プロジェクトの全体的な進捗を追跡するためのサンプルチェックリストです。"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__checklist_item_line__state__todo
+#: model:ir.model.fields.selection,name:zehntech_project_task_checklist.selection__project_checklist_item_line__state__todo
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_notebook
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_project_progress_simplified
+#: model_terms:ir.ui.view,arch_db:zehntech_project_task_checklist.project_task_progress_notebook
+msgid "To Do"
+msgstr "やるべきこと"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,help:zehntech_project_task_checklist.field_project_task__display_name
+msgid ""
+"Use these keywords in the title to set new tasks:\n"
+"\n"
+"            #tags Set tags on the task\n"
+"            @user Assign the task to a user\n"
+"            ! Set the task a medium priority\n"
+"            !! Set the task a high priority\n"
+"            !!! Set the task a urgent priority\n"
+"\n"
+"            Make sure to use the right format and order e.g. Improve the configuration screen #feature #v16 @Mitchell !"
+msgstr ""
+"新しいタスクを設定するには、タイトルに以下のキーワードを使用します。\n"
+"\n"
+"#tags タスクにタグを設定します。\n"
+"@user タスクをユーザーに割り当てます。\n"
+"! タスクの優先度を中に設定します。\n"
+"!! タスクの優先度を高に設定します。\n"
+"!!! タスクの優先度を緊急に設定します。\n"
+"\n"
+"正しい形式と順序を使用してください。例：設定画面を改善します #feature #v16 @Mitchell !"
+
+#. module: zehntech_project_task_checklist
+#: model:ir.model.fields,field_description:zehntech_project_task_checklist.field_checklist_category__group_permission
+msgid "User Group"
+msgstr "ユーザー グループ"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,name:zehntech_project_task_checklist.project_checklist_item_1_quality_assurance
+msgid "Verify Quality Standards Compliance"
+msgstr "品質基準のコンプライアンスを確認します"
+
+#. module: zehntech_project_task_checklist
+#: model:project.checklist.item,description:zehntech_project_task_checklist.project_checklist_item_1_compliance
+msgid "Verify that data security and privacy policies are implemented correctly."
+msgstr "データセキュリティとプライバシーポリシーが正しく実装されていることを確認します。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+msgid "You cannot assign this Project/checklist to %(user)s because they are not in the same group as you."
+msgstr ""
+"%(user)s はあなたと同じグループに属していないため、このプロジェクト/チェックリストを %(user)s に割り当てることはできま"
+"せん。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "You cannot assign this task/checklist to %(user)s because they are not in the same group as you."
+msgstr ""
+"%(user)s はあなたと同じグループに属していないため、このタスク/チェックリストを %(user)s に割り当てることはできません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "You cannot create a task in the selected stage as it is restricted."
+msgstr "選択した段階では、制限されているため、タスクを作成することはできません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "You cannot move the task to the stage '%(stage)s' until all checklist items are either completed or canceled."
+msgstr ""
+"すべてのチェックリスト項目が完了するかキャンセルされるまで、タスクをステージ '%(stage)s' に移動することはできません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to Update this Project based on the checklist category's group permissions."
+msgstr "チェックリストカテゴリのグループ許可に基づいて、このプロジェクトを更新するために必要なアクセス許可はありません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to Update this task based on the checklist category's group permissions."
+msgstr "チェックリストカテゴリのグループ許可に基づいて、このタスクを更新するために必要なアクセス許可がありません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to create this Project based on the checklist category's group permissions."
+msgstr "チェックリストカテゴリのグループ許可に基づいて、このプロジェクトを作成するために必要なアクセス許可がありません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to create this task based on the checklist category's group permissions."
+msgstr "チェックリストカテゴリのグループ許可に基づいて、このタスクを作成するために必要なアクセス許可はありません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid ""
+"You do not have the necessary permissions to update the checklist item because you are not part of the required group."
+msgstr "必要なグループの一部ではないため、チェックリスト項目を更新するために必要なアクセス許可がありません。"
+
+#. module: zehntech_project_task_checklist
+#. odoo-python
+#: code:addons/zehntech_project_task_checklist/models/project_checklist.py:0
+#: code:addons/zehntech_project_task_checklist/models/task_checklist.py:0
+msgid "You must add at least one item to the checklist."
+msgstr "少なくとも1つのアイテムをチェックリストに追加する必要があります。"

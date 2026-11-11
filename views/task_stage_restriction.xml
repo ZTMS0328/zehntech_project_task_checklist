@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!--Add Restriction boolean field in task stage creation form-->
+    <record id="task_stage" model="ir.ui.view">
+        <field name="name">task.stage.restriction</field>
+        <field name="model">project.task.type</field>
+        <field name="inherit_id" ref="project.task_type_edit"/>
+        <field name="arch" type="xml">
+            <!--Add the field after project field-->
+            <xpath expr="//field[@name='project_ids']" position="after">
+                <field name="restrict_task_completion"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,10 @@
+id,name,model_id,group_id/id,operation,domain
+access_task_checklist,access.task.checklist,task.checklist,project.group_project_user,crud,
+access_checklist_item,access.checklist.item,checklist.item,project.group_project_user,crud,
+checklist_item_line_rule_assignee,Checklist Item Line: task assignees only,checklist.item.line,project.group_project_user,crud,"[('projects_id.user_ids', 'in', [user.id])]"
+checklist_item_line_rule_manager,Checklist Item Line: project managers full access,checklist.item.line,project.group_project_manager,crud,
+access_project_checklist,access.project.checklist,project.checklist,project.group_project_user,crud,
+access_project_checklist_item,access.project.checklist.item,project.checklist.item,project.group_project_user,crud,
+project_checklist_item_line_rule_assignee,Project Checklist Item Line: project members only,project.checklist.item.line,project.group_project_user,crud,"['|', ('projects_id.user_id', '=', user.id), ('projects_id.message_partner_ids', 'in', [user.partner_id.id])]"
+project_checklist_item_line_rule_manager,Project Checklist Item Line: project managers full access,project.checklist.item.line,project.group_project_manager,crud,
+access_checklist_category,access.checklist.category,checklist.category,project.group_project_user,crud,

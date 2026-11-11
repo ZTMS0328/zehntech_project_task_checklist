@@ -1,0 +1,352 @@
+<odoo>
+    <data noupdate="1">
+        <!-- Sample Task Checklists1-->
+        <!-- Create Task Checklist and Items Simultaneously -->
+
+        <record id="checklist_category_sample_1" model="checklist.category">
+            <field name="name">Bug Fix</field>
+        </record>
+
+        <record id="task_checklist_sample_1" model="task.checklist">
+            <field name="name" >Sample Bugs Checklist</field>
+            <field name="description" >This is a sample checklist for bug fix tasks.</field>
+            <field name="checklist_category" ref="checklist_category_sample_1"/>
+        </record>
+
+        <!-- Define checklist items separately and link them using checklist_id -->
+        <record id="checklist_item_1" model="checklist.item">
+            <field name="name">Document steps</field>
+            <field name="description" >Outline the steps to reproduce the bug.</field>
+            <field name="checklist_id" ref="task_checklist_sample_1"/>
+        </record>
+
+        <record id="checklist_item_2" model="checklist.item">
+            <field name="name" >Apply the fix</field>
+            <field name="description" >Implement the fix for the bug.</field>
+            <field name="checklist_id" ref="task_checklist_sample_1"/>
+        </record>
+
+        <record id="checklist_item_3" model="checklist.item">
+            <field name="name">Test the fix</field>
+            <field name="description" >Ensure the bug is fixed and no new issues are introduced.</field>
+            <field name="checklist_id" ref="task_checklist_sample_1"/>
+        </record>
+
+       <!-- Sample Feature Request Checklist -->
+        <record id="checklist_category_feature_request" model="checklist.category">
+            <field name="name">Feature Request</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="task_checklist_sample_2" model="task.checklist">
+            <field name="name">Sample Feature Request Checklist</field>
+            <field name="description">A checklist for managing the development of a new feature.</field>
+            <field name="checklist_category" ref="checklist_category_feature_request"/>
+        </record>
+
+        <!-- Define the checklist items separately -->
+        <record id="task_checklist_item_1" model="checklist.item">
+            <field name="name">Define feature scope</field>
+            <field name="description">Define the purpose, goals, and user requirements for the new feature.</field>
+            <field name="checklist_id" ref="task_checklist_sample_2"/>
+        </record>
+
+        <record id="task_checklist_item_2" model="checklist.item">
+            <field name="name">Create design mockups</field>
+            <field name="description">Design the feature's user interface (UI) and create wireframes/mockups.</field>
+            <field name="checklist_id" ref="task_checklist_sample_2"/>
+        </record>
+
+        <record id="task_checklist_item_3" model="checklist.item">
+            <field name="name">Develop the feature</field>
+            <field name="description">Implement the feature based on the defined scope and design mockups.</field>
+            <field name="checklist_id" ref="task_checklist_sample_2"/>
+        </record>
+
+        <record id="task_checklist_item_4" model="checklist.item">
+            <field name="name">Test the feature</field>
+            <field name="description">Test the feature thoroughly to ensure it meets the defined requirements and works as expected.</field>
+            <field name="checklist_id" ref="task_checklist_sample_2"/>
+        </record>
+
+
+        <!-- Sample Improvement Checklist -->
+        <record id="checklist_category_improvement" model="checklist.category">
+            <field name="name">Improvement</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="task_checklist_sample_3" model="task.checklist">
+            <field name="name">Sample Improvement Checklist</field>
+            <field name="description">A checklist for addressing improvements in existing features or functionality.</field>
+            <field name="checklist_category" ref="checklist_category_improvement"/>
+        </record>
+
+        <!-- Define the checklist items separately -->
+        <record id="task_checklist_item_5" model="checklist.item">
+            <field name="name">Identify area for improvement</field>
+            <field name="description">Identify the area in the feature or process that needs improvement.</field>
+            <field name="checklist_id" ref="task_checklist_sample_3"/>
+        </record>
+
+        <record id="task_checklist_item_6" model="checklist.item">
+            <field name="name">Research possible solutions</field>
+            <field name="description">Research different approaches to solving the identified problem or improving the process.</field>
+            <field name="checklist_id" ref="task_checklist_sample_3"/>
+        </record>
+
+        <record id="task_checklist_item_7" model="checklist.item">
+            <field name="name">Implement the improvement</field>
+            <field name="description">Implement the chosen solution or improvement in the product or process.</field>
+            <field name="checklist_id" ref="task_checklist_sample_3"/>
+        </record>
+
+        <record id="task_checklist_item_8" model="checklist.item">
+            <field name="name">Test the improvement</field>
+            <field name="description">Test the implemented improvement to verify that it works as intended and achieves the desired results.</field>
+            <field name="checklist_id" ref="task_checklist_sample_3"/>
+        </record>
+
+
+        <!-- Sample General Task Checklist -->
+        <record id="checklist_category_general_task" model="checklist.category">
+            <field name="name">General Task</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="task_checklist_sample_4" model="task.checklist">
+            <field name="name">Sample General Task Checklist</field>
+            <field name="description">A generic checklist for managing general tasks in a project.</field>
+            <field name="checklist_category" ref="checklist_category_general_task"/>
+        </record>
+
+        <!-- Define the checklist items separately -->
+        <record id="task_checklist_item_9" model="checklist.item">
+            <field name="name">Define task objectives</field>
+            <field name="description">Clearly outline the objectives and goals of the task.</field>
+            <field name="checklist_id" ref="task_checklist_sample_4"/>
+        </record>
+
+        <record id="task_checklist_item_10" model="checklist.item">
+            <field name="name">Identify resources</field>
+            <field name="description">Identify the resources (personnel, tools, materials) needed to complete the task.</field>
+            <field name="checklist_id" ref="task_checklist_sample_4"/>
+        </record>
+
+        <record id="task_checklist_item_11" model="checklist.item">
+            <field name="name">Delegate responsibilities</field>
+            <field name="description">Delegate tasks to the appropriate team members based on their expertise and availability.</field>
+            <field name="checklist_id" ref="task_checklist_sample_4"/>
+        </record>
+
+        <record id="task_checklist_item_12" model="checklist.item">
+            <field name="name">Monitor progress</field>
+            <field name="description">Monitor the progress of the task, ensuring that all aspects are on track.</field>
+            <field name="checklist_id" ref="task_checklist_sample_4"/>
+        </record>
+
+        <record id="task_checklist_item_13" model="checklist.item">
+            <field name="name">Complete the task</field>
+            <field name="description">Finalize the task, ensuring all deliverables are completed and meet the required standards.</field>
+            <field name="checklist_id" ref="task_checklist_sample_4"/>
+        </record>
+
+
+        <!-- Sample Project Checklist 1 -->
+        <record id="checklist_category_project" model="checklist.category">
+            <field name="name">Project</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="project_checklist_sample" model="project.checklist">
+            <field name="name">Sample Project Checklist</field>
+            <field name="description">This is a sample checklist to track the overall progress of a project.</field>
+            <field name="checklist_category" ref="checklist_category_project"/>
+        </record>
+
+        <!-- Define the checklist items separately -->
+        <record id="project_checklist_item_1" model="project.checklist.item">
+            <field name="name">Define project scope</field>
+            <field name="description">Establish project objectives, goals, deliverables, timeline, and stakeholders.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_2" model="project.checklist.item">
+            <field name="name">Assemble project team</field>
+            <field name="description">Identify and onboard team members based on skills and project requirements.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_3" model="project.checklist.item">
+            <field name="name">Develop project plan</field>
+            <field name="description">Create a detailed plan including milestones, deadlines, and resource allocation.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_4" model="project.checklist.item">
+            <field name="name">Set up project environment</field>
+            <field name="description">Prepare necessary tools, software, and documentation for project execution.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_5" model="project.checklist.item">
+            <field name="name">Kickoff meeting</field>
+            <field name="description">Hold a meeting with stakeholders to discuss project scope, expectations, and roles.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_6" model="project.checklist.item">
+            <field name="name">Execute project phases</field>
+            <field name="description">Progress through each project phase, completing tasks and achieving milestones.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_7" model="project.checklist.item">
+            <field name="name">Monitor progress and adjust</field>
+            <field name="description">Regularly review progress, resolve issues, and adjust project plans as needed.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_8" model="project.checklist.item">
+            <field name="name">Conduct testing and QA</field>
+            <field name="description">Ensure all project outputs meet quality standards and pass required tests.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_9" model="project.checklist.item">
+            <field name="name">Prepare project documentation</field>
+            <field name="description">Compile all necessary documentation, including project reports and user guides.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_10" model="project.checklist.item">
+            <field name="name">Deliver project and gather feedback</field>
+            <field name="description">Hand over the final deliverables to stakeholders and gather feedback for future improvements.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+        <record id="project_checklist_item_11" model="project.checklist.item">
+            <field name="name">Project closure and post-mortem</field>
+            <field name="description">Hold a post-mortem meeting to discuss lessons learned, project successes, and areas for improvement.</field>
+            <field name="checklist_id" ref="project_checklist_sample"/>
+        </record>
+
+
+        <!-- Sample Client Onboarding Project Checklist -->
+        <record id="checklist_category_client_onboarding" model="checklist.category">
+            <field name="name">Client Onboarding</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="project_checklist_sample_extended_client_onboarding" model="project.checklist">
+            <field name="name">Client Onboarding Checklist</field>
+            <field name="description">Checklist for onboarding clients and setting clear expectations.</field>
+            <field name="checklist_category" ref="checklist_category_client_onboarding"/>
+        </record>
+
+        <!-- Define the checklist items separately -->
+        <record id="project_checklist_item_1_client_onboarding" model="project.checklist.item">
+            <field name="name">Initial Client Meeting</field>
+            <field name="description">Schedule a kickoff meeting with the client to discuss objectives and expectations.</field>
+            <field name="checklist_id" ref="project_checklist_sample_extended_client_onboarding"/>
+        </record>
+
+        <record id="project_checklist_item_2_client_onboarding" model="project.checklist.item">
+            <field name="name">Gather Client Requirements</field>
+            <field name="description">Collect detailed requirements to understand the client’s needs and goals.</field>
+            <field name="checklist_id" ref="project_checklist_sample_extended_client_onboarding"/>
+        </record>
+
+
+        <!-- Sample Resource Management Project Checklist -->
+        <record id="checklist_category_resource_management" model="checklist.category">
+            <field name="name">Resource Management</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="project_checklist_sample_resource_management" model="project.checklist">
+            <field name="name">Resource Management Checklist</field>
+            <field name="description">Checklist to manage resources effectively throughout the project.</field>
+            <field name="checklist_category" ref="checklist_category_resource_management"/>
+        </record>
+
+        <!-- Define the checklist item separately -->
+        <record id="project_checklist_item_1_resource_management" model="project.checklist.item">
+            <field name="name">Allocate Team Members to Tasks</field>
+            <field name="description">Assign team members to tasks based on skill sets.</field>
+            <field name="checklist_id" ref="project_checklist_sample_resource_management"/>
+        </record>
+
+        <!-- Sample Compliance Project Checklist -->
+        <record id="checklist_category_compliance" model="checklist.category">
+            <field name="name">Compliance</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="project_checklist_sample_compliance" model="project.checklist">
+            <field name="name">Compliance Checklist</field>
+            <field name="description">Checklist to ensure compliance with legal and regulatory standards.</field>
+            <field name="checklist_category" ref="checklist_category_compliance"/>
+        </record>
+
+        <!-- Define the checklist item separately -->
+        <record id="project_checklist_item_1_compliance" model="project.checklist.item">
+            <field name="name">Conduct Security and Privacy Checks</field>
+            <field name="description">Verify that data security and privacy policies are implemented correctly.</field>
+            <field name="checklist_id" ref="project_checklist_sample_compliance"/>
+        </record>
+
+        <!-- Sample Post-Project Review Checklist -->
+        <record id="checklist_category_post_review" model="checklist.category">
+            <field name="name">Post-Project Review</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="project_checklist_sample_post_review" model="project.checklist">
+            <field name="name">Post-Project Review Checklist</field>
+            <field name="description">Checklist for evaluating project success and gathering insights post-completion.</field>
+            <field name="checklist_category" ref="checklist_category_post_review"/>
+        </record>
+
+        <!-- Define the checklist items -->
+        <record id="project_checklist_item_1_post_review" model="project.checklist.item">
+            <field name="name">Collect Client Feedback</field>
+            <field name="description">Solicit feedback from the client to evaluate project success.</field>
+            <field name="checklist_id" ref="project_checklist_sample_post_review"/>
+        </record>
+
+        <record id="project_checklist_item_2_post_review" model="project.checklist.item">
+            <field name="name">Conduct Internal Project Review</field>
+            <field name="description">Hold a retrospective meeting with the team to discuss project outcomes.</field>
+            <field name="checklist_id" ref="project_checklist_sample_post_review"/>
+        </record>
+
+
+        <!-- Sample Quality Assurance Project Checklist -->
+        <record id="checklist_category_quality_assurance" model="checklist.category">
+            <field name="name">Quality Assurance</field>
+        </record>
+
+        <!-- Define the checklist -->
+        <record id="project_checklist_sample_quality_assurance" model="project.checklist">
+            <field name="name">Quality Assurance Checklist</field>
+            <field name="description">Checklist for ensuring that quality assurance measures are met throughout the project.</field>
+            <field name="checklist_category" ref="checklist_category_quality_assurance"/>
+        </record>
+
+        <!-- Define the checklist items -->
+        <record id="project_checklist_item_1_quality_assurance" model="project.checklist.item">
+            <field name="name">Verify Quality Standards Compliance</field>
+            <field name="description">Ensure that deliverables meet the established quality standards.</field>
+            <field name="checklist_id" ref="project_checklist_sample_quality_assurance"/>
+        </record>
+
+        <record id="project_checklist_item_2_quality_assurance" model="project.checklist.item">
+            <field name="name">Conduct Final QA Testing</field>
+            <field name="description">Perform the final round of testing to confirm quality standards are met.</field>
+            <field name="checklist_id" ref="project_checklist_sample_quality_assurance"/>
+        </record>
+
+
+    </data>
+</odoo>

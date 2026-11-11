@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!--Add checklist field and page in task-->
+    <record id="project_task_progress_notebook" model="ir.ui.view">
+        <field name="name">project.task.notebook</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_form2"/>
+        <field name="arch" type="xml">
+            <!--Add the checklist dropdown in the task form-->
+            <xpath expr="//field[@name='user_ids']" position="after">
+                <field name="checklist_category" />
+                <field name="checklist_domain" invisible="1"/>
+                <field name="checklist_id" widget="many2many_tags" domain="checklist_domain"/>
+                <field name="category_domain" invisible="1"/>
+            </xpath>
+
+            <!-- <xpath expr="//field[@name='user_ids']" position="attributes">
+                <attribute name="domain">[('groups_id', 'in', user.groups_id.ids)]</attribute>
+            </xpath> -->
+
+            <!--Add a page of checklist for the selected checklist-->
+            <xpath expr="//form/sheet/notebook/page[last()]" position="after">
+                <field name="has_checklist" invisible="1"/>
+                <page string="Checklist" invisible="has_checklist == False">
+                    <!-- Progress bar with label -->
+                    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+                        <span style="font-weight: bold; color: #4A4A4A; margin-right: 10px;">Checklist Progress:</span>
+                        <div style="flex-grow: 1;">
+                            <field name="checklist_progress" widget="progressbar" options="{'max_value': 100}" readonly="1" style="width: 100%;"/>
+                        </div>
+                    </div>
+                    <!--Add tree view of checklist items with actions-->
+                    <field name="checklists">                       
+                        <list decoration-danger="state=='cancel'" decoration-muted="state=='todo'" decoration-success="state=='done'"
+	                              decoration-info="state=='in_progress'" editable="bottom">
+                            <field name="check_list_item_id"/>
+                            <field name="description"/>
+                            <button type="object" name="approve_and_next" class="inprogress-btn" icon="schedule" title="In Progress"/>
+                            <button type="object" name="mark_completed" class="success-btn" icon="check" title="Done"/>
+                            <button type="object" name="mark_canceled" class="cancel-btn" icon="close" title="Cancelled"/> 
+                            <button type="object" name="reset_stage" class="reset-btn" icon="refresh" title="To Do"/> 
+                            <field name="state"/>
+                        </list>
+                    </field>
+                </page>
+            </xpath>
+        </field>  
+    </record>
+
+    <!--Add progress bar to tree view of task-->
+    <record id="project_task_progress_inherited_tree" model="ir.ui.view">
+        <field name="name">project.task.inherit</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_tree2"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='activity_ids']" position="after">
+                <field name="checklist_progress" widget="progressbar"/>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Add progress bar to kanban view of task-->
+    <record id="project_task_progress_inherited_kanban" model="ir.ui.view">
+        <field name="name">project.task.kanban</field>
+        <field name="model">project.task</field>
+        <field name="inherit_id" ref="project.view_task_card"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='tag_ids']" position="after">
+                <field name="checklist_id" invisible="1"/>
+                <field name="has_checklist" invisible="1"/>
+                <div style="display: flex; align-items: center; margin-top: 8px;" invisible="has_checklist == False">
+                    <span style="font-weight: bold; color: #4A4A4A; margin-right: 6px;" class="o_kanban_label">Checklist:</span>
+                    <field name="checklist_progress" widget="progressbar" style="flex-grow: 1;"/>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
